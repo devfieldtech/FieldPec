@@ -1,0 +1,126 @@
+unit UFabricaNova;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  UCadPadrao, System.Rtti, FMX.Grid.Style, FMX.ActnList, System.Actions,
+  FMX.TabControl, FMX.ScrollBox, FMX.Grid, FMX.Edit, FMX.Controls.Presentation,
+  FMX.Objects, FMX.TreeView, FMX.Layouts, Fmx.Bind.Grid,
+  System.Bindings.Outputs, Fmx.Bind.Editors, Data.Bind.EngExt,
+  Fmx.Bind.DBEngExt, Data.Bind.Components, Data.Bind.Grid, Data.Bind.DBScope,
+  FMX.ListBox, FMX.DateTimeCtrls;
+
+type
+  TfrmFabricaRacaoNova = class(TfrmCadPadrao)
+    TreeViewItem1: TTreeViewItem;
+    Image4: TImage;
+    TreeViewItem2: TTreeViewItem;
+    Image6: TImage;
+    TreeViewItem3: TTreeViewItem;
+    Image7: TImage;
+    BindSourceDB1: TBindSourceDB;
+    LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource;
+    BindingsList1: TBindingsList;
+    Label3: TLabel;
+    Edit1: TEdit;
+    EditButton3: TEditButton;
+    ClearEditButton1: TClearEditButton;
+    Label23: TLabel;
+    edtPreMistura: TEdit;
+    EditButton5: TEditButton;
+    ClearEditButton2: TClearEditButton;
+    Label14: TLabel;
+    cbxCentroCustoF: TComboBox;
+    Label16: TLabel;
+    cbxTipoBaixaF: TComboBox;
+    Label15: TLabel;
+    edtOperadorF: TEdit;
+    EditButton4: TEditButton;
+    GroupBox3: TGroupBox;
+    edtFDataEntATE: TDateEdit;
+    Label12: TLabel;
+    edtFDataEntDE: TDateEdit;
+    Label13: TLabel;
+    procedure TreeItemNovoClick(Sender: TObject);
+    procedure TreeItemEditarClick(Sender: TObject);
+    procedure TreeItemExcluirClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmFabricaRacaoNova: TfrmFabricaRacaoNova;
+
+implementation
+
+{$R *.fmx}
+uses UPrincipal, UServiceDB, USeviceConfinamento, UCadRacao, USuplementoMineral,
+  UCadUsers, UdmReportConf;
+
+procedure TfrmFabricaRacaoNova.TreeItemEditarClick(Sender: TObject);
+begin
+if ServiceConf.TFabricacaoID.AsString.Length>0 then
+  begin
+    ServiceConf.TFabricacao.Edit;
+    edtDataBaixaEdita.Date        := ServiceConf.TFabricacaoDATA_FAB.AsDateTime;
+    cbxTipoBaixaEdita.ItemIndex   := cbxTipoBaixaEdita.items.IndexOf(ServiceConf.TFabricacaoTIPO_BAIXA_STR.AsString);
+    cbxCentroCustoEdita.ItemIndex := cbxCentroCustoEdita.items.IndexOf(ServiceConf.TFabricacaoCENTROCUSTO.AsString);
+    edtHoraInicioEdita.Time       := ServiceConf.TFabricacaoHORA_INICIO.AsDateTime;
+    edtHoraFimEdita.Time          := ServiceConf.TFabricacaoHORA_FIM.AsDateTime;
+    layPopUpCad.Visible           := TRUE;
+  end;
+end;
+
+procedure TfrmFabricaRacaoNova.TreeItemExcluirClick(Sender: TObject);
+begin
+  MyShowMessage('DesejaPr Realmente Excluir essa Fabricação??',TRUE);
+  case DLG.vBntConfirmaMsg of
+  1:
+  begin
+      try
+       ServiceConf.TFabricacao.Edit;
+       ServiceConf.TFabricacaoSTATUS.AsInteger               :=-1;
+       ServiceConf.TFabricacaoID_USUARIO_ALTERACAO.AsString  :=serviceDB.vIdUserLogado;
+       ServiceConf.TFabricacaoDATA_ALTERACAO.AsDateTime      :=now;
+       ServiceConf.TFabricacao.ApplyUpdates(-1);
+       MyShowMessage('Registro excluido com Sucesso!',false);
+       Filtro;
+       if ServiceConf.TFabricacaoID.AsString.Length>0 then
+        ServiceConf.AbrirFabricacaoInsumos(ServiceConf.TFabricacaoID.AsString)
+       else
+        ServiceConf.AbrirFabricacaoInsumos('0')
+      except
+      on E : Exception do
+       begin
+         MyShowMessage('Exception message = '+E.Message,false);
+       end;
+      end;
+  end;
+  2:
+   begin
+     MyShowMessage('Operação Abortada',false);
+   end;
+  end;
+
+end;
+
+procedure TfrmFabricaRacaoNova.TreeItemNovoClick(Sender: TObject);
+begin
+LimpaCampos;
+ CarregaCombo;
+ ServiceConf.TFabricacao.Close;
+ ServiceConf.TFabricacao.Open;
+ ServiceConf.TFabricacao.Insert;
+ edtKGTotal.Text            := '';
+ layInsumos.Visible         := false;
+ layBtnControls.Enabled     := false;
+
+ MudarAba(tbiCad,Sender);
+
+end;
+
+end.

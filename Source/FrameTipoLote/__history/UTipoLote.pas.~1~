@@ -1,0 +1,26 @@
+unit UTipoLote;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Controls.Presentation, FMX.Layouts;
+
+type
+  TFrame1 = class(TFrame)
+    Layout39: TLayout;
+    Layout40: TLayout;
+    Label18: TLabel;
+    Image41: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

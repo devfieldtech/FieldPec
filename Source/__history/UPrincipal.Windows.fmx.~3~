@@ -1,0 +1,3763 @@
+inherited frmPrincipal_Windows: TfrmPrincipal_Windows
+  DesignerMasterStyle = 0
+  inherited tbPrincipal: TTabControl
+    Sizes = (
+      1338s
+      859s
+      1338s
+      859s
+      1338s
+      859s
+      1338s
+      859s
+      1338s
+      859s
+      1338s
+      859s
+      1338s
+      859s
+      1338s
+      859s
+      1338s
+      859s)
+    inherited tbiApresentacao: TTabItem
+      ExplicitSize.cx = 107.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Rectangle2: TRectangle
+        inherited layTbiApre: TLayout
+          inherited imgApr: TImage
+            MultiResBitmap.Height = 250
+            MultiResBitmap.Width = 421
+            MultiResBitmap.LoadSize = 2
+          end
+          inherited imgQtdCab: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+          inherited imgMediaPeso: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+          inherited imgDataEnt: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+          inherited imgDias: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+          inherited ImgPrevisto: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+          inherited imgRealizado: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+        end
+      end
+    end
+    inherited tbiLogin: TTabItem
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Rectangle4: TRectangle
+        inherited V: TLayout
+          inherited Rectangle1: TRectangle
+            inherited gpLogin: TGroupBox
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout3: TLayout
+                inherited Label2: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label3: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Layout4: TLayout
+                  inherited layBtnControls: TLayout
+                    inherited btnEntrar: TRectangle
+                      inherited layBntConfirm: TLayout
+                        inherited imgBntConfirm: TImage
+                          MultiResBitmap.Height = 48
+                          MultiResBitmap.Width = 48
+                          MultiResBitmap.LoadSize = 2
+                        end
+                        inherited lblBtnConfirm: TLabel
+                          TextSettings.Font.StyleExt = {00070000000000000004000000}
+                        end
+                      end
+                    end
+                    inherited btnCancelLogin: TRectangle
+                      inherited layBtnCancel: TLayout
+                        inherited ImgBtnCancel: TImage
+                          MultiResBitmap.Height = 48
+                          MultiResBitmap.Width = 48
+                          MultiResBitmap.LoadSize = 2
+                        end
+                        inherited lblBtnCancel: TLabel
+                          TextSettings.Font.StyleExt = {00070000000000000004000000}
+                        end
+                      end
+                    end
+                  end
+                end
+                inherited Label40: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnSincronizaBaseCampo: TRectangle
+                  inherited Layout151: TLayout
+                    inherited Image106: TImage
+                      MultiResBitmap.Height = 48
+                      MultiResBitmap.Width = 48
+                      MultiResBitmap.LoadSize = 2
+                    end
+                    inherited Label19: TLabel
+                      TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    end
+                  end
+                end
+              end
+            end
+          end
+          inherited imgPanelFornRealizado: TImage
+            MultiResBitmap.Height = 407
+            MultiResBitmap.Width = 682
+          end
+          inherited Layout221: TLayout
+            inherited Rectangle45: TRectangle
+              inherited lblDbLogin: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+        end
+        inherited Layout2: TLayout
+          inherited Layout11: TLayout
+            inherited Image19: TImage
+              MultiResBitmap.Height = 60
+              MultiResBitmap.Width = 60
+            end
+          end
+        end
+      end
+      inherited Image2: TImage
+        MultiResBitmap.Height = 250
+        MultiResBitmap.Width = 421
+        MultiResBitmap.LoadSize = 2
+      end
+      inherited layKey: TLayout
+        inherited RecLicenca: TRectangle
+          inherited Rectangle16: TRectangle
+            inherited Image77: TImage
+              MultiResBitmap.Height = 709
+              MultiResBitmap.Width = 796
+            end
+          end
+          inherited Layout102: TLayout
+            inherited Layout103: TLayout
+              inherited Rectangle17: TRectangle
+                inherited Label20: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+            inherited Layout104: TLayout
+              inherited Layout105: TLayout
+                inherited btnValidaKey: TRectangle
+                  inherited Layout106: TLayout
+                    inherited Image78: TImage
+                      MultiResBitmap.Height = 48
+                      MultiResBitmap.Width = 48
+                      MultiResBitmap.LoadSize = 2
+                    end
+                    inherited Label23: TLabel
+                      TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    end
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+      inherited layEscolheBase: TLayout
+        inherited Rectangle34: TRectangle
+          inherited Layout133: TLayout
+            inherited Image104: TImage
+              MultiResBitmap.Height = 250
+              MultiResBitmap.Width = 421
+              MultiResBitmap.LoadSize = 2
+            end
+          end
+        end
+      end
+    end
+    inherited tbimenu: TTabItem
+      ExplicitSize.cx = 65.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited layMnu: TLayout
+        inherited Rectangle6: TRectangle
+          inherited Treemnu: TTreeView
+            Viewport.Width = 267.000000000000000000
+            Viewport.Height = 801.000000000000000000
+            inherited TreeViewPropriedades: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout77: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image5: TImage
+                  MultiResBitmap.Height = 64
+                  MultiResBitmap.Width = 64
+                  MultiResBitmap.LoadSize = 2
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeUsers: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout7: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image6: TImage
+                  MultiResBitmap.Height = 64
+                  MultiResBitmap.Width = 64
+                  MultiResBitmap.LoadSize = 2
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeConfinamento: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeCurralConf: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout135: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image97: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited btnNutricao: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreePlanTratos: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout156: TLayout
+                    inherited Image112: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited TreePreMistura: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout162: TLayout
+                    inherited Image118: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited TreeRacaoConf: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout154: TLayout
+                    inherited Image110: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited TreePlanejamento: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout155: TLayout
+                    inherited Image111: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited TreeNotasdeCocho: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout159: TLayout
+                    inherited Image115: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited btnLotesNutricional: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout157: TLayout
+                    inherited Image113: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited TreeLeituraCocho: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout160: TLayout
+                    inherited Image116: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited TreeFornRacao: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00060000000000000004000000}
+                  inherited Layout158: TLayout
+                    inherited Image114: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                      MultiResBitmap.LoadSize = 2
+                    end
+                  end
+                end
+                inherited Layout153: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image109: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited TreeViewItem4: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout163: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image119: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited TreeViewItem20: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout182: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image127: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited TreeViewItem5: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreeViewItem40: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout194: TLayout
+                    inherited Image139: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem36: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout224: TLayout
+                    inherited Image152: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeRelSaida: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout228: TLayout
+                    inherited Image155: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout203: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image45: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited TreeVagao: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout265: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image171: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited Layout37: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image48: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  MultiResBitmap.LoadSize = 2
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreePasto: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeRetiros: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout38: TLayout
+                  inherited Image49: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeEstruturas: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout9: TLayout
+                  inherited Image8: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeBebedouro: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout140: TLayout
+                  inherited Image90: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeMeteorologia: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreePluviometro: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout131: TLayout
+                    inherited Image88: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreePluviometria: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout137: TLayout
+                    inherited Image89: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout130: TLayout
+                  inherited Image86: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeSuplementos: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited btnAlimentos: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout145: TLayout
+                    inherited Image94: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited btnSuplementos: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout23: TLayout
+                    inherited Image21: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem30: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout132: TLayout
+                    inherited Image95: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewPrevisao: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout32: TLayout
+                    inherited Image27: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem6: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout31: TLayout
+                    inherited Image26: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem1: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout1: TLayout
+                    inherited Image7: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout15: TLayout
+                  inherited Image14: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeScore: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout144: TLayout
+                  inherited Image93: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeAtualizaGMD: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout129: TLayout
+                  inherited Image87: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem21: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreeViewItem22: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited TreeViewItem23: TTreeViewItem
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    inherited TreeViewItem24: TTreeViewItem
+                      inherited Layout183: TLayout
+                        inherited Image128: TImage
+                          MultiResBitmap.Height = 60
+                          MultiResBitmap.Width = 60
+                        end
+                      end
+                    end
+                    inherited TreeViewItem25: TTreeViewItem
+                      inherited Layout184: TLayout
+                        inherited Image129: TImage
+                          MultiResBitmap.Height = 60
+                          MultiResBitmap.Width = 60
+                        end
+                      end
+                    end
+                    inherited Layout185: TLayout
+                      inherited Image130: TImage
+                        MultiResBitmap.Height = 60
+                        MultiResBitmap.Width = 60
+                      end
+                    end
+                  end
+                  inherited TreeViewItem26: TTreeViewItem
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    inherited TreeViewItem27: TTreeViewItem
+                      inherited Layout186: TLayout
+                        inherited Image131: TImage
+                          MultiResBitmap.Height = 60
+                          MultiResBitmap.Width = 60
+                        end
+                      end
+                    end
+                    inherited TreeViewItem28: TTreeViewItem
+                      inherited Layout187: TLayout
+                        inherited Image132: TImage
+                          MultiResBitmap.Height = 60
+                          MultiResBitmap.Width = 60
+                        end
+                      end
+                    end
+                    inherited Layout188: TLayout
+                      inherited Image133: TImage
+                        MultiResBitmap.Height = 60
+                        MultiResBitmap.Width = 60
+                      end
+                    end
+                  end
+                  inherited Layout189: TLayout
+                    inherited Image134: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem29: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited TreeViewItem32: TTreeViewItem
+                    inherited Layout190: TLayout
+                      inherited Image135: TImage
+                        MultiResBitmap.Height = 60
+                        MultiResBitmap.Width = 60
+                      end
+                    end
+                  end
+                  inherited TreeViewItem33: TTreeViewItem
+                    inherited Layout191: TLayout
+                      inherited Image136: TImage
+                        MultiResBitmap.Height = 60
+                        MultiResBitmap.Width = 60
+                      end
+                    end
+                  end
+                  inherited Layout192: TLayout
+                    inherited Image137: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem34: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout193: TLayout
+                    inherited Image138: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem37: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout196: TLayout
+                    inherited Image141: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem38: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout197: TLayout
+                    inherited Image142: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem39: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout198: TLayout
+                    inherited Image143: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem14: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout218: TLayout
+                    inherited Image149: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout201: TLayout
+                  inherited Layout79: TLayout
+                    inherited Image41: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+              end
+              inherited Layout141: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image91: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeAnimais: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeRacas: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout12: TLayout
+                  inherited Image11: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeCategorias: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout13: TLayout
+                  inherited Image12: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeComprador: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout101: TLayout
+                  inherited Image76: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewListaAnimal: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout27: TLayout
+                  inherited Image42: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeAuxiliares: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreeAuxMotivoMov: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout138: TLayout
+                    inherited Image101: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeMotivoAplicacao: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout139: TLayout
+                    inherited Image102: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeRebanho: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout146: TLayout
+                    inherited Image99: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout142: TLayout
+                  inherited Image105: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeRateioCusto: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout230: TLayout
+                  inherited Image157: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeImportalBrincos: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout233: TLayout
+                  inherited Image160: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap = <
+                      item
+                        Width = 60
+                        Height = 60
+                        PNG = {
+                          89504E470D0A1A0A0000000D494844520000003C0000003C08060000003AFCD9
+                          72000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                          0869494441546843ED9B6B685D5516C79B7772938E31C9C434B531936A922663
+                          D56ACCC5A00EA5621146B4FA416510C581C119AC0E8EF8F8A0A828A220E2279F
+                          0875C6574114B53AA388C3B49236A9D221B169B4B616D25A93B4CD3B374F7FFF
+                          73F63DBDE7F4DC4734B9F79AF887C5DE7BEDB5F73EEBECB5D7597B9F73329625
+                          01B3B3B31A27D39095877726E945A417915E0075656565FD8D744131EF0AA380
+                          94C9219B0B29CD87A4DCB9F01B49D74C4E4E36E5E5E59592B770F8F0E1C98A8A
+                          8AB750F84F86959E907233333385A465A4ABA05AA805BA757A7AFA69E8E35028
+                          7474FBF6EDD3C844454F4FCF04B2FF34DD2E28129E61AE2B8BA4002A22BF9C54
+                          F45BA88E72436666663D3357D3DDDD5DD9D8D828D98491CC19F655D82827C58A
+                          49C35406AD827736692D3352B76BD7AE552D2D2D3F7B5924556114D09A2BCEC8
+                          C89052A793D7AC9D0149B9D5500D265AD3DBDB7B466565A5D6E4BC23A90AA3CC
+                          66945A49BE125A49B97A6060A0B2B4B434CF924802221566FC1258B2A222AB72
+                          FE30C2A4EEC93870E0C064757575B661A6041E859B9980CDF8843A533D2FA0DF
+                          21147E55EB35E588F4D214374C4D4D7D61D7CC2F70AADD0A04960CF6EDDB57B3
+                          A414D6E37249292C2C3985F51C9E35F994C1E3A5B5A1B81D3AC75447A2A0B5B5
+                          751D69467373F37EBCEEA8CDF6074E6AD5EEDDBB8B5DC191144E353C5E5A8150
+                          2E8AE7F950435F5FDFB888BC62763F1987E8F3753D76AD410CD2CEA499B51968
+                          82E770C84B544F6005618BF495892464A67373735D16FCABD30A63C78E1D33C3
+                          C3C323E3E3E3C7BD3434341473ED1C3C78706A747474C8DB6E646464987E63FA
+                          0CAC2E0B732C800ABD44750033B5D6235620DE6F62116239131313AECD4D54A7
+                          25A50A0B0B3FA5E3CF294ED95C1B34A93F74E8D0CD7E21A9140A06831DB4FB10
+                          EA336C0BB46B397EFCF8466F9C1EE9B490A9822E85AD4D8C0BF0CB18F75EE5AB
+                          AAAA5EA6FF1EAB220A50FA7A9CDCEF715A2727964E7CA14DBB163D8D14C8BB00
+                          AF1C0FF88D1175616C6CEC18F50F42DA3B3B501BFA7B5F0ECA883A4856682944
+                          3569DD15065E4FF64AE40236D7060EE187ECECEC974CD18196014EE24BB2EF21
+                          3366732D25B4BFBE919B145CA82D66A288E9B4B8F8722E7613D408B9D602E52D
+                          DC9083A668A1A9A9A90F33FB37D4615816903D8F19BEA9BDBDFD74C34A19E27A
+                          691C4D90E42A2E5AFB5407CCE061D6DCCBA668392A667D0FD9775078D2E65ACA
+                          9E06DD120A85D6B8D6521420AB6DDC5EB2BBBDC40DEE928F1029EF27134938CA
+                          635E279950A445E75FA1DC662EE4BF90E3C098B5B3587B9FA16835DEF0FB9C9C
+                          9C47A97F0E9A513D5DABFFEB90790C995AAB910FE67000507FE4C891679459B1
+                          62C55D24523A2A18FB019CDCE52EE72A85E3A1A3A3638A8B7E9E8BD1A98803AA
+                          B2E13F6C9CCE366F3DE5B3E16F3D7AF468C8EEC91F914E2B16E8AF2922D26A32
+                          ECA8509F5E2719D7C4046DAB70389BC80669A3F3E630A699CD37CBCBCBBF267D
+                          173A62F8BA383D7AAEC13A2EA33EB24D4A9190C2425E5E5E19CAEACD4085CDB1
+                          1EFEB3500FA6F806C50F54B66B2C5C8CD257B7B5B5E9B4336D30A7DD527F7F7F
+                          A8A4A4E41F28F612342E9EB112ADBB63F0C26B5707F3F70F0E0EFEB5B8B8586F
+                          1E62C2B3862BE9E762FA70DE4C8401AF9A35799FF2041E4F20E77A4A78415F7F
+                          EEEAEA6A8A3C279FF3F610D3FE0EE7B49EC1BE352C17E84E7D5ECBFA790A4755
+                          63D831E189B4FE40DB47F1EA6B4DB50314C82A2A2A5288B94C612F4F8A69AB22
+                          0A4E9C385170CA735F0ACF054460335CD0B3647D03082EEA1CEA5F939CDD223E
+                          D222D28A8358C7BA32F5613B9B7E98B34973F7BFC6F4AEC09CBE332CCB8C81D3
+                          0FB3BC117A12B9730D2B269269D273525883B083FA0BCA6D8526C4A3791654C1
+                          E0CECE85B2DE4BDDCD46E2EE4020A0976E31914CA7A54E1282093E5EA19372D3
+                          D4025515F09F26753D6B91BB00FE36B5B33A8881B40B3C84FAFAFA2EEEE80B50
+                          BF6185677703835F4B7AA1615B40EEFFD0DBB5B5B531F7ACC946A20A0F60B2DA
+                          0E76A284B36E5052CFDB3B315DEDAA6E23EF98AFE4A0F731D34FE29D90241371
+                          15D61E177C4C761B4A0FDA5C0737B4B6B65EB87CF9F200329753D649850314FE
+                          1E7A8D75AC5D8E1594C403FD94408AD2D67B89EA269C59A648793F994842A6C2
+                          7BC413770D13687C45E3ABC9BABC1DE52AEAF65B42008F38CA9AD942D6154A52
+                          CEA7FD436CD5FA2C411F44AE61649BC9FF0B76BB97186FAF9EEF22E5FD642209
+                          CBEBF7C6033115662F3CC8E08F903D251E86FFB82D75125CC4375CF00D46C401
+                          BCD5C8FFC7EB40C2488BC0431BE7FCFCFCFF61C66F53741C9540BBF3B9C09B4D
+                          D1C1C0C0C099D4FD1105F582DD0166FD2DF442595999EB502F1588AA707373B3
+                          2EF22D14D84BEA3CAB759350E88EEEEE6E67D714864E23A9BB04F92B9073D68E
+                          DA431F115B6FD306C4B05302DFC043B31B0C06DB98DDD729F6DA5C071598EE3D
+                          B9B9B9FA0EE414E8A887A04027235B29BA424C866A605D6D2678719D6678028F
+                          DFC1DA009D724369BF92C0E336E57FEA316DD4480BF31C2B28281822EBAAA793
+                          1CF3822AAA75E0C0C6693BCC05B9423F86CA6C6F6F2FF5B6F584968AD3F3256B
+                          D79E04FDADC3423E521E6BDA88CC1756451450FF223768D39C8F78161A691969
+                          2D16A49DC29A04C8F77529D591F17AB457AA0E219395F0BBA564C2E3B47450F8
+                          77A8DE543B8017D8B973E76AE517D30BF1B43CF1F8C5E2578517333A3B3BA797
+                          94C2757575FB97DAC7A55BC29F0FEB9F047D6A50A9FC22FD7C5871FD1E3D87AD
+                          0FC42968CFAB54037A3F105FDDDBDB5BBE283E1037A90B28E9F70B80762FB282
+                          6A52BD5DF865FE0260D2B840D16C28C03A0890867FF2D0916D2DE506688D6E42
+                          5B5B5BF95C6F423215FE5940497D5315F91B4F1DB4387EE349145C7FAC1FB5F4
+                          075A0331EEDA54FDA835EF0AFB0145358E9EF9BA19992C0BF9082D857586D6C2
+                          EB44E1DB25BF7058B6EC47AC1C20F78296BEFE0000000049454E44AE426082}
+                        FileName = 
+                          'E:\Projetos2022\Field\Field2023\FieldPec\Filedpec\IMG\excel-file' +
+                          '.png'
+                      end>
+                  end
+                end
+              end
+              inherited Layout14: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image13: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeMovimentacoes: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeContratoCompra: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout89: TLayout
+                  inherited Image46: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewGTA: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout78: TLayout
+                  inherited Image39: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeEntradas: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout17: TLayout
+                  inherited Image15: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeMovPeso: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout19: TLayout
+                  inherited Image17: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeSaidas: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout18: TLayout
+                  inherited Image16: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeMorte: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout95: TLayout
+                  inherited Image70: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeNascimento: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout97: TLayout
+                  inherited Image72: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited Layout20: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image18: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  MultiResBitmap.LoadSize = 2
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeViewISanidade: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeViewItem9: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout56: TLayout
+                  inherited Image62: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeViewItem10: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout57: TLayout
+                  inherited Image63: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeViewProtocolo: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout58: TLayout
+                  inherited Image64: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeViewItem11: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout59: TLayout
+                  inherited Image65: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeViewTratamentos: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout60: TLayout
+                  inherited Image66: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeViewItem42: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout226: TLayout
+                  inherited Image154: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited TreeViewItem43: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout232: TLayout
+                  inherited Image159: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                  end
+                end
+              end
+              inherited Layout55: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image61: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  MultiResBitmap.LoadSize = 2
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeEstoque: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeInsumos: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout91: TLayout
+                  inherited Image73: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem3: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout22: TLayout
+                  inherited Image20: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem8EntradaEstoque: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout64: TLayout
+                  inherited Image9: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItemEntradas: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout36: TLayout
+                  inherited Image4: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeCentroCusto: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout161: TLayout
+                  inherited Image117: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeDashEstoque: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout29: TLayout
+                  inherited Image71: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited btnEstoqueChip: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout242: TLayout
+                  inherited Image164: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap = <
+                      item
+                        Width = 60
+                        Height = 60
+                        PNG = {
+                          89504E470D0A1A0A0000000D494844520000003C0000003C08060000003AFCD9
+                          72000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                          10B7494441546843ED9B097097C515C025212424E10811B923A2025512113C10
+                          95623D296A65148BAD606DAB085E68AD7674AC5A6BD5DA69471151C7633C51EA
+                          355861405AB11E20A07224020AE18872254084100824A1BFDFC7F7FD0DE43E28
+                          33B66FE6CDDB7DFBF678BB6FDFBEDDEFFF6F764813C09E3D7B12C0A3499E083D
+                          0EDA0B9A515A5ADA114C5AB56A55CB8C8C8C92C4C4C4A2B8B8B82DE06A645634
+                          6BD6EC73701EE9E5D022E80187062B8C42A9606F9283A0278387836DE4979595
+                          25A368E2D6AD5B5B6CD9B2258E749C55DAB76F5F969292528AE23BE2E3E377AA
+                          24F82DB81AFC0C998FA073A125D03DD026877A298C32CAA7404F810E84F6058F
+                          2E2929E9C6AA95272424E43978CAD6819B4817427781A5603CF9A4F2F2F254D2
+                          EDC08ED43D9CC9E8064D68DEBCF906DA58012E26FF21E59F22BFBEA915AFB3C2
+                          0C3405D21354D13359C5135DC950C915F035CB5CE81AE83A640AA085D0DDD0DD
+                          F09B934E82DA4E3A3C15CE007B903F127AD4EEDDBB7BC0DF439B73A1B3E07F00
+                          E630095BA14D02B52ACC40E2C07492AEE63006351C1ACF8AAC67208B189883FA
+                          37741954E5EAB5224C6422A43B782AEDFE08CCA48F0C4C7E3B388BF62653F609
+                          341F2CB7CE01033A8F6340E9E0284C6FF682050BCAB66FDFBE95959D0A6F04E5
+                          8786A23180D7CC7A6082CA802D49274BCDCB07E343F118C0B39E263F84F6DF62
+                          9BAC63FFEF40F91C78D780E955D5AB2FD4B8C274E25E1BCB0046A268B7E4E4E4
+                          4DACEC9FE14D63B6BF86EEDA7FD6C341B5876A9E5DA0ADC96BCACA6AE2EB49AF
+                          24BD0E2C231D03CA1C4F02D88EF430FA1F9597977742E7CE9D37B768D1E25978
+                          4F60552B03E10642950AD3B02BD416FC2D9DFE0485DBB3AF1632C0F114CF836A
+                          5EEECBD8CA903C01747F1F077625DD0AAAB9AA805EDA89D1E47562C5D0B5E042
+                          D21F838B50241F1A00F5ECBF3D49BDFFF08282824BD3D2D2F231F157A9F33CB2
+                          D66B10545238EC2C8DE41814FD190AB765763F84F7029DBD077F3B946CB01A1D
+                          A0FDC141A4FB207B0416D0196B88A74E2103D34B7BF4EC44A605E954DBC35C75
+                          5A7B389ED6852BA6639A8DCCFBF0757681D5906F0BE94B9D11948F605B6D82BE
+                          4CF92BD01C65EA0B9514A67167D67D7407D88E95D5713C07CE04772AE3E0C13E
+                          24CF809EB96BD7AE01F2915D85CC1A92790CE81BCA22854B4827403DBBD3C00E
+                          F0F5D0DDE8A33B348EBAD994CF80FF4FE81760108850960CF6066F42E17358E5
+                          8DB4EDE43F0FBA3D1A0E289B029EAD832A2C2C2C6630EF92BF80CE34593B7769
+                          7540275336014557B19ADF229F4D7E127C9D4B3F64DA040D5601611B2D903B16
+                          1C45BDA7A9FFF9CE9D3BF34387F834FC33917162820581EAE8FA53F6D68E1D3B
+                          3623FF213297D94ED06843C0C669E4781A7D4C6F8C3279E42F846FA01095EB69
+                          4F42661A1D6F7190A6E15D0A1A9054E9136A02EAB506B5A897A95F68DF80133D
+                          2CEA3B027817503673DBB66D45A18CD15DC33CB78DD3C075D14C93BE1EEC1C29
+                          0175654F62761712326EE7B8C8A5D3FBEC14F4B8A9B7B282F5AC0F1E018EF638
+                          D2BAE86736F92B29D7E10540DA636B1C7D7FC1827C4DFF0FC1DB67526A83D820
+                          69E86C2A8FA1A1C1381C0FFAEB40A3A6DDF0DDB39AEA5D4CC6208EA765EC23F7
+                          F5DB5435D20A3CB680CCA1602F92062A521D4F3258021A6E1A372FA4EC33A871
+                          74703491D76C3DD77FC8586E46A92319C71CCA3D8AA6282320D3DB89292E2EBE
+                          2A2929298F3D7D0532EEFFE250A476A001F7EE5D28BBC6D9236D5011DBB7E4FB
+                          319B133463CA57921F071E415930FB52F20628C39C7570AA96C06AADB58E1681
+                          4C21ED7F03DFFD3E1D7C0CF911A066196B074C83371AB94FA8BF1E397D4326FC
+                          E6A18CAB7CB116109AF69F6CC3B2BA40642E3FA0A1BE544E61360D1767C2F3BC
+                          14F4A8675036147E29E51E0B534057AADC01804721F30BE81806329249F14CDE
+                          C511359F559ADAAA55ABBF33A8B7598DF9F01D641F566814BCB1E42FA75E7FD2
+                          89B6076E81F7B6AB0A6E41F634CA7F0AEAAD290E4E8A85B4359DBEE2E15D48DE
+                          49F3BCAF1BD0992E3F1B5C40FADA901DADEEF9743A556F0C9D06CF63A4E26CF7
+                          817F8F7B1F2CA08DCFC83F05FF97E009C878FC1C4ABA8B79F072CA1F466E2EAB
+                          BF89555F4DDED5F62E1D7340E46DF76178854CE052F2FDC09661993EE32CEAE6
+                          6567679792F77470616A072A26D0F0ABA142AF53312B2CB2E196F01E74604E08
+                          F94B908F4C5D33EE45F93D2B57AEDC1D1E636FC21B4A598D8EC43E913B093A19
+                          B3DDE04451F715F2DEA022F376B287D1EFC2D074EF271F33DDB0EF978CB7A1CF
+                          D95E585423B8678E060FC77C8C6EBCE22DD95B1480A66980A1292D824E03753E
+                          0EC8686C28B33F263D3D7D1766FB2C32BF87E776D8AE4C75809C21E6E7246FC1
+                          EC5FA0EF12067D1A83BE8376BD3E2AE3AD6B0165AFAE5EBD3A89F29FC3F3EE1C
+                          4C08691DE00CB6CC2E78FD6019CED60A56D694DA10E9E86DBDCF7A598F602083
+                          E81146505E018D81A3EB9F2F1DE741E352525266C07F1CFCCAC15790A91690D1
+                          B37B817881FDF81A7D782C0E817712B4552074C8216BC1793D7BF65C8FE33B8C
+                          FE32C91F6601E96D904F99B01D5888D7CB4ED43376AF115C6183FD543AF6A542
+                          47140C169E17F62C1AEC04CF70D14B7954E6D1331073CBA4DCA3EB29D85F4283
+                          D0B3AE80BC2BBD0C9CC960E7B3AD3CF72FA128D88F4E1E642D13F2A979C703E9
+                          689A3A3AD58D94ADA2AE7A74265FE9BABA3FB8C23DA9A03370B683D894CAF255
+                          AA1B83D091A8F072CB04F89EAFC78071D4F13C35E88FBC7ABD807A4ED202E834
+                          2650BF702E79150F1C235048D9479CB95A8431753019F074D95AD372CC7A07AC
+                          C3487B0FA8119C990CF66112B3B999F4A690AFBBF7E9A5158D79EB590B567C66
+                          31A8E8C2ECBABA1F835E106A35E3EA80BA81E9E207362F5BB62C83B4261A99B5
+                          A6BB88BEF4C6F2BDA34760D0E245C54933F6AE585625C4E10C3AF8BA48DA9B8D
+                          28F8E0E6E5DD89F0D21EF10320AF8774467DAC5BBC97DB70A01D07BE99EDB1A0
+                          63C78EA5B4AF238DCCD355F431AF8CD3C2FD5BF104F0DCB64CEBF2A1219AA46A
+                          218E6321353F3FDF15F5D934F2C0DE686C40737686C58AD08E95375C74D51B77
+                          45FB0E5CA53C94F6B470A56CDFC930B42D20599E9B9BEBD633D009CE6BA856E5
+                          35D280C845ABDD6971C619A118533BCB159F5CAC1C8729F934B3FFFE4C2A2A2A
+                          728FE974DC3F8D06DAF19879A375EBD6F741BD17472F20EED54226F881ACACAC
+                          7BC8FB701F007CFBFF94318E47F7E7617DB1B7A47A8863DFE80C9C29672D16E9
+                          00011FD335A8DFFFDEB9333535D5E34B4F5EEBACD611B4A2F9283009EAA561B3
+                          4CA86373525F075F22BF141ABDA395D1BF4FC45E2E9C244F9A1A21CECF1F7E11
+                          A0214D2518BC9D80EE5B95F2C80A82810AB099B0CEDB8966DF29E03412E843B3
+                          749573A11BA0B1238E7419BCD5A081915E3B70905278DBC2B2AF4D07156A8066
+                          78E82538830C8287BFD1C063545A8BE2AEEA00BCE278B02DFBEA31CA1E8A3A82
+                          770B2B7F25F9ADC84F005F0C5A6B04D09F47A1616B4FD2AD68BBA2B5350A68CF
+                          ADAABFC93B84814F47E1CDD089286218A9403CE9AE9C8B1F8771EC5FC9C74C97
+                          F2B3ACE7750FFA08F9BADF54AA00EAEB248DB47C60F8D03EC9371984EDCD0287
+                          3BAB2BD8F4EE910ECC6A14C568E20622A2ABDA0DF4EB6004463ECBF1F07E3C1B
+                          001E0F365869EABA9D0C292730B8FE2B56AC083C745381ED1140F56732EFF646
+                          7215AB6410BF8D4E35E96742394DF74ECA46A2B49F38355D3D616001E070CAC7
+                          B025FAE0417DD1BC15FC06AC188BD70AB4A372E7D0D6B558DA00031DC6E2FBB7
+                          F7F27A85AAD5016D5FB478F1E2EBBB76EDBADB0EFBA2F95C02F08D28F7470A63
+                          A64BDA8F66D3BDC2417D4D6C8D7CF02C44DAB7ACDBBDCF86E57F219F4579707D
+                          AC0B20EF4BCB25D49DE21594C9CB25FF1BDAE80146A165A38136AFA5BD003469
+                          3DDF6AD29AE491A0E15B045E09B329738F7905F38357704451270F3283EDF00E
+                          BC7806EDB3E9AFC0B3E8C06B5CB54E87322DCB20E21CD257A0E829DC96D6D196
+                          57CC97E01BB2D6CB52EA0A06FFC6C19F61461BE8DCA71A950A561113CE07E730
+                          981CAC40254621DB09EAA3BA67E162E8B3947B0756FE0ACAC691BC147A2A4AF9
+                          F66C98E8679BE895C4F85D33F6B3CC582C64A07DD3CE1BE0A3F04D1F106563C0
+                          A006B142EF6856D01719884E2432DD0EE0ED6CFAADF00A49FB9CE26D46EB88F6
+                          7347EA3DCA4A2DF7E5A3A0A0602766BE16DE3FC02791F745D4078360CF92D71B
+                          CFD37B526705F93BA3F20301B41F33E9800155C107C237A985080C211F982ED4
+                          2B9B8FEF4FFB48AE22E47DD58C0D30946905BAE727AA84CF3E1B366C287102E0
+                          DF864CB055A0FA8C8F7C9AF14D8AB29BE1C59E760E04D0472585638F75ACB22F
+                          856FC1ABF8BEE419A93233C347F2B9E447835EBA63405EA58F0207812391BF17
+                          3478391F0C5E2AA0A7BBB24C1EC9F25B695B07D564414655403F31852B3EC41B
+                          228E44991BE0C7B32FFF40FE0DF6E506CBE179DF1CEC2059C19E942FA7CC18D6
+                          275B1FC2F7CE1E809CFBD5CFA55EF1744E7E5EDD02FA15713079BF422A771E3C
+                          3F9E55DAB3F4E37BDAE9C8782F8F8DB30A300CCE86FE8BF17CB597B52FA83032
+                          FA87EF80865DE553589117C3559C43DE0F697E3988CA3D46AE44E61D4C7B3D8A
+                          2F21FD303C3F5EFBA9A4D68B04ED0C062350F92A81B66EA2FDAFB48450B64A70
+                          9B3156B7E1B0B06A25A06C9F63290066C015CA814E26AE5E959797E7775F7FCF
+                          6114956C3933E8B7613FB13C89677D0F7EAA9E9906EFA6EE65A0A67C0CD819F4
+                          CCD637E8956B5AA12A813A3D7272728EECD5ABD7B7B435AB2A64B23FF2E2939D
+                          9DEDE35EC32E3134A4571EE30AEA6D69F471F27E57DA2774849749D9BDAEB27B
+                          D207719C901FB8A650761B3804CC02BB827E590CF629B44E2B4C3B8F2A000DCC
+                          BF2AA0DDF6064CCA918E7D40D81F2C53460859DF01BCE03B111D3DA802E40B49
+                          3F0FED1F8A0440DEBB701B64FDEE743FB26B9C20D1234CE7E731C780F291B911
+                          341E3FE80A573A0A3057DF897CB89B48E43399FDE1578773A9742718FB388E8C
+                          8EC62BD712649FC0C42F6BD7AEDD4D696969CF242525F95E5C8895B45CBA74A9
+                          3F79F21DAAC942C5C64095671FCA785BF2F1FD39949984E21B59411FDE6F04AF
+                          017D2E4DA2DC7DBD23949D0DBE49FE49E803D4B9BD4D9B36E3B2B2B26EA0C977
+                          E1052F18071B6A3CEC19BCBFDCF107242F720C2D292E2E1E80895DCD4A8F46E1
+                          A150CFDCE895247A41F4F3C87470126995F7F1C0EB6493FD9AAE3150A3C20203
+                          F78C75A527242727CF41D1D6ECCD5FA3E82DF02F074F27DD0B6CAFF294EFE391
+                          297722B498CA0EE32040AD0A0B0CD6957B0DBC0A537D253131F16B94CEDCB469
+                          D3EFF0D2FE60EC4ECA8622EAF38C3F4A0B7E550B06BFC083FA6454EFA349A09E
+                          3F8071322B217DEA1FEAA44304751E4438601B578163C18BC0F339AF7BB76DDB
+                          B6948BBB1FC08B9910BF4FF959C68F7346699AB2AF91B9A04F2DB1480B38039E
+                          3F22AD046C9DF15CDAC77ACEA6A7A7EFF321A002C4E11483981E5F711D563831
+                          E0EE074C4EE548AB3EC0A05D391F000C34AE6170CFE1C917791CF9F3062F211E
+                          69AC7E2EF8253263C1E073A60A8311547B2C5176356D1248D529D2FA80F67F1C
+                          56AD0494558EA51B02D4D754FD4AE087EA2EA0D7462F145E149C79A3AD4466FE
+                          69D2EF42FD59719D569841FA86E6A3A211544DE3F45EEE7BB4CED26F54954085
+                          1BB5C2D5010DFBF32395F6E782FE14F822A8BFE1720B04DF8454188CA0DA156E
+                          4AA0FFEA23AD030DF4795015AE9787FB3EC0FF15FEBEC3FF9CC28D3A961A0238
+                          90D339AFA7F9F9233333F3118E8B2A9F659A12F05583962C597271F7EEDD9BE4
+                          5B76BD00858F235078BFA8A8689B41C35EDF7960C1C709AEAA7E1D09DECFFFAB
+                          80C2FE81633811588E8F057B877460C1C955D9F2F2F2F3FE03E651AE9162F5A8
+                          DD0000000049454E44AE426082}
+                        FileName = 
+                          'E:\Projetos\Solotect_Field\FieldPec\Filedpec\IMG\icons8-sensor-r' +
+                          'fid-50.png'
+                      end>
+                  end
+                end
+              end
+              inherited TreeRetiradaChip: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout243: TLayout
+                  inherited Image165: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap = <
+                      item
+                        Width = 60
+                        Height = 60
+                        PNG = {
+                          89504E470D0A1A0A0000000D494844520000003C0000003C08060000003AFCD9
+                          72000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                          10B4494441546843ED9B097097C515C021212424E10891DB444405AA401014F1
+                          806A3D296A65148BAD606DAB085E68AD7674AC5A6BD5DA69C703514774F042A9
+                          D760850169C57A80287710D1700639034408814012FAFB7D7CDFDF40EE833263
+                          FB66DEBCDDB76F8FB7FBF6EDDBFDFEFFC68D1A00F6EDDB97001E47F2646816B4
+                          1B34B3B8B8B83D98B46AD5AA669999994589898905717171DBC0D5C82C6FDCB8
+                          F17CF033D239D002E821873A2B8C42A960779203A1A78047812DE597949424A3
+                          68E2F6EDDB9B6EDBB62D6EEFDEBD715669DBB66D494A4A4A318AEF8A8F8FDFAD
+                          92E0B7E06A701E321F43E7408BA0FBA00D0EB5521865944F819E0A3D0DDA1B3C
+                          AEA8A82883552B4D4848C875F094AD07B790CE87EE018BC178F249A5A5A5A9A4
+                          5B83EDA97B141393014D68D2A4C946DA580E2E26FF11E57391DFD0D08AD75861
+                          069A02E90AAAE8D9ACE2C9AE64A8E472F89AE50AE81AE87A64F2A0F9D0BDD0BD
+                          F09B904E82DA4E3A3C15CE04BB903F067A2C96D005FE3EDA9C039D09FF437009
+                          93B01DDA2050ADC20C240E4C27E96A0E615043A1F1ACC80606B2888139A87F43
+                          974155AE562BC24426423A83A7D3EE8FC09EF49189C9EF0467D2DE24CA3E856E
+                          064BAD73C880CEE318503A3802D39B357FFEFC929D3B776E6765A7C01B46F911
+                          A1680CE035B61E98A0326033D2C952F3F2C1F8503C06F0ACA7C90FA2FDB7D926
+                          EBD9FFBB507E09BCEBC0F48AEAD516AA5C613A71AF8D6600C35134233939790B
+                          2BFB67785399EDB5D03D07CF7A38A83650CDB313B405794D59594D7C03E995A4
+                          D78325A4634099E349005B931E42FF237273734FEAD8B1E3D6A64D9B3E0FEF69
+                          AC6A65205C47A850611A76855A81BFA5D39FA0701BF6D54206F838C59F41352F
+                          F7656C65489E04BABFB3C0234937876AAE2AA097766234799D5821741DB890F4
+                          27E02214D90C0D807AF6DF86A4DE7F685E5EDEE56969699B31F1D7A8F302B2D6
+                          AB13945338EC2C8DE42814FD190AB762763F82F7229DBD0F7F27946CB01AEDA0
+                          7DC181A47B207B3416D0116B88A74E3E03D34B7BF4EC46A629E954DBC35C755A
+                          FB389ED6872BA6639A85CC07F0757681D5906F05E94D9D61940F635B6D81BE42
+                          F9ABD025CAD416CA294CE3CEACFBE82EB0352BABE39800CE00772BE3E0C11E24
+                          CF829EBD67CF9EFEF2915D85CC1A92B90CE81BCA22858B4827403DBBD3C076F0
+                          F5D019F4D1191A47DD6CCAA7C3FF27F40B300844284B06BB83B7A0F079ACF226
+                          DA76F25F00DD1E7507944D01CFD541E5E7E7173298F7C85F44679AAC9DBBB43A
+                          A053281B8BA2AB58CD6F91CF263F11BECEA50F322D83062B80B08DA6C89D008E
+                          A0DE78EACFDFBD7BF7E6D0218E877F36324E4CB020501D5D5FCADEDEB56BD756
+                          E43F42E60ADB091AAD0BD8388D9C48A34FEA8D512697FCC5F00D14A2723D6D3F
+                          64A6D2F13607691ADEE5A00149853EA12AA05E0B508B7A85FAF9F60D38D143A2
+                          BE23807711653376ECD85110CA18DDD5CD73DB380DDC10CD34E91BC18E911250
+                          57B61FB3BB90907127C7C50A3A7DC04E418F9B5A2B2B58CFFAE0D1E0488F23AD
+                          8B7E6691BF9A721D5E00A43DB6C6D0F7172CC85AFA7F04DE0193521DC4064943
+                          E75279140D9D89C3F1A0BF01346ADA0BDF3DABA9DEC3640CE4785AC63E725FBF
+                          435523ADC0630BC81C01762369A022D5F1248345A0E1A671F342CAE6418DA383
+                          A389BC66EBB9FE43C6722B4A1DC3386653EE513459190199EE4E4C6161E13549
+                          4949B9ECE9AB9071FF178622D5030DB877EF41D935CE1E69838AD8BE25DF87D9
+                          1CAB1953BE92FC18F068CA82D99792374019E2AC8353B404566B9D75B40864F2
+                          69FF1BF8EEF769E093C80F0335CB583B601ABC91C87D4AFD0DC8E91B7AC26F12
+                          CAB8CA976A01A169FFC9362CAB0944E6F2031AEA4DE51466D37071063CCF4B41
+                          8F7A166583E11753EEB1301974A54A1D00782C32BF808E6220C39914CFE43D1C
+                          519FB34A539A376FFE7706F50EABF1397C07D983151A016F34F92BA9D79774A2
+                          ED81DBE0BDE3AA82DB903D83F29F827A6B8A839362216D4DA3AF7878179377D2
+                          3CEF6B0674A6CBCF061790BE3E6447AB7B219D4ED11B43A7C2F318293BDB3DE0
+                          DFE7DE07F368631EF967E1FF123C09198F9F234877320F5E49F9A3C8CD61F5B7
+                          B0EAABC9BBDADEA5630E88BCED3E0A2F9F09FC927C1FB05958A6CF3887BAB9D9
+                          D9D9C5E43D1D5C98EA818A0934FC5AA8D01B54EC1516D97033780F3B302784FC
+                          65C847A6AE1977A3FCBE952B57EE0D8FB1B7E00DA6AC4A47629FC8F5834EC26C
+                          373A51D47D95BC37A8C8BC9DEC21F4BB3034DD07C9C74C37ECFB65E36DE804DB
+                          0B8BAA04F7CC71E051988FD18D57BCA5FB8B02D0340D3034A545D0A9A0CEC701
+                          198D0D66F647A5A7A7EFC16C9F47E6F7F0DC0E3B95A90C9033C49C4FF236CCFE
+                          45FA2E62D06730E8BB68D7EBA332DEBA1650F6DAEAD5AB9328FF393CEFCEC184
+                          90D6014E67CBEC81D70796E16CB560654DA925918EDED6FBAC97F5084E63105D
+                          C208CA2BA0317074FDF3A5E302685C4A4ACA74F84F815F3BF832329502327A76
+                          2F102FB21F5FA70F8FC541F0FA419B07428D1AAD033FEBDAB5EB061C5F5BFAEB
+                          49BEAD05A47740E63261BBB010AF971DA867EC5E25B8C206FBA974EC4B858E28
+                          182C3C2FECBD68B0033CC3452FE5519947CF69985B4FCA3DBA9E85FD1534083D
+                          6B0AC8BBD2CBC0190CF673B695E7FE651405FBD1C983AC6342E69A773C90F6A6
+                          A9A353DD44D92AEAAA4747F2E5AEAB07832BDC950A3A03673B884DA92C5FA532
+                          18848E4485732C13E07BBE1E0FC651C7F3D4A03FF2EAB502EA39490BA0539940
+                          FDC2F9E4553C708C403E651F73E66A11C6D4C164C0D3656B4D3998F52E586D49
+                          7B0FA8129C994CF66112B3B995F49690AFBBF7E9A5398D79EB5907967D6631A8
+                          E8C4ECBABA9F805E10AA35E3CA80BA81E9E207B62E5BB62C93B4261A99B5A6BB
+                          88BEF4C6F2BDA34760D0E245C54933F62E5B5621C4E10CDAF9BA48DA9B8D28F8
+                          E0E6E5DD89F0D21EF10320AF8774467DAC5BBC9F5B77A01D07BE95EDB1A07DFB
+                          F6C5B4AF238DCCD355F431AF84D3C2FD5BF604F0DCB64CEBF2A1219AA44A218E
+                          632175D3A64DAEA8CFA69107F64663039AB3332C9685D6ACBCE1A2AB5EBF2BDA
+                          77E02AE5A2B4A7852B65FB4E86A16D1EC9D2E5CB97BBF50C7482F31AAA55798D
+                          342072D1AA775A9C714628C6D4CE72D927172BC7614A3ECD1CBC3F930A0A0ADC
+                          633A1DF74FBD81763C66DE6CD1A2C50350EFC5D10B887B359F097E282B2BEB3E
+                          F23EDC0700DFFEE732C6C7D1FD05585FEC2FA91CE2D8373A0367CA598B453A40
+                          C0C7740DEA0FBE77EE4E4D4DF5F8D293573BAB3504ADE873149808F5D2B05526
+                          D4B139A96F802F93FF121ABDA395D0BF4FC45E2E9C244F9A2A21CECF1F7E11A0
+                          214D2518BC9D80EE5B95F2C80A828132B095B0CEDB8966DF21E0D413E843B374
+                          955740374263471CE91278AB410323BD76E020A5F07684656B4D0715AA80C678
+                          E8A538834C8287BFD1C093545A87E2AE6A7FBCE2E3602BF6D593943D127504EF
+                          3656FE6AF2DB911F0BBE14B4560FA03F8F42C3D6AEA49BD376596BAB17D09E5B
+                          557F93DB88814F43E1ADD071286218A9403CE92339173F09E3D8BF928F992EE5
+                          E758CFEB1EF431F235BFA95400D4D7491A69F9C0F0917D926F3008DB9B090E75
+                          5697B3E9DD23ED98D5288AD1C40D4444573503F4EB6004463E3978783F9EF507
+                          4F04EBAC3475DD4E869463195CDF9C9C9CC0433714D81E01545F26F35E6F24D7
+                          B04A06F13BE854937E2E94D374EFA66C384AFB8953D3D5130616000EA57C145B
+                          A2071ED417CDDBC16FC0B2B178B5403B2A771E6D5D8FA5F537D0612CBE7F7B2F
+                          AF55A85A19D0F6258B162DBA31232363AF1DF646F33904E09B50EE8F14C64C97
+                          B41FCDA6798583FA9AD802F9E05988B46F59777A9F0DCBFF42BE17E5C1F5B126
+                          80BC2F2D975177B25750266F05F9DFD04617300A2DEB0DB4793DED05A049EBF9
+                          5693D6248F010DDF22F04A984D997BCC2B981FBC82238A3AB990E96C8777E1C5
+                          33689F4D7F059E43075EE32A753A9469590611E791BE0A454FE5B6B49EB6BC62
+                          BE0CDF90B55696525330F8370E9E87196DA4739F6A542A58454C7833389BC12C
+                          C10A546204B21DA03EAA7B162E863E4FB97760E5AFA26C0CC9CBA1A7A3946FCF
+                          86897EB6895E498CDF35633FCB8CC6424EB36FDA79137C02BEE943A26C0C18D4
+                          4056E85DCD0AFA1203D18944A6DB0EBC934DBF1D5E3E699F53BCCD681DD17E6E
+                          4FBD2758A91C5F3EF2F2F27663E6EBE0FD037C06795F447D3008F62C79BDF167
+                          7A4FEA2C277F77547E2880F663261D30A02AF850F826B5108141E403D3857A65
+                          F3F17DBC8FE42A42DE57CDD8004399E6A07B7E9C4AF8ECB371E3C6222700FE1D
+                          C8045B05AACFF8D8A719DFA428BB155EEC69E750007D945338F658C72AFB52F8
+                          36BCB2EF4B9E912A33237C249F437E24E8A53B06E455FA587020381CF9FB4183
+                          970BC1E0A5023AC09565F24896DE4EDB3AA8060B322A02FA89295CF621DE1071
+                          38CADC043F9E7DF907F26FB22F375A0ECFFBE6990E9215EC4A790E65C6B03ED9
+                          FA10BE7FF600E4DCAF7E2EF58AA773F2F3EA36D0AF886792F72BA47217C0F3E3
+                          59B93D4B3FBEA70D40C67B796C9C1580617036F45F8CE7EBFDAC03418591D13F
+                          7C0734EC2A9FCA8ABC14AEE26CF27E48F3CB4154EE31723532EF62DA1B507C29
+                          E947E1F9F1DA4F25D55E2468E74C300295AF1068EB16DAFF5A4B08652B04B719
+                          63751B0E09AB9603CA0E38960260065CA125D049C4D5AB727373FDEEEBEF398C
+                          A2922D6706FD36EC279667F0ACEFC34FD533D3E0BDD4BD02D4948F073B829ED9
+                          FA06BD72552B542150A74B7676F631DDBB77FF96B66656844CF6C75E7C162F5E
+                          ECE35EDD2E3134A4571EE50AEA6D69F429F27E573A207484D793B2FB5D65F7A4
+                          0FE238213F704DA6EC0E7010D80B3C12F4CB62B04FA1355A61DA7942016860FE
+                          1501EDB63160528E74EC03C2C160993242C8FA0EE005DF89E8E86115209F4FFA
+                          0568DF502400F2DE855B22EB77A707915DE304891E613A3F8F3906B419999B41
+                          E3F1C3AE70B9A30073F59DC887BB71443E93D81F7E75389F4A7783B18FE3C8E8
+                          68BC722D45F6694CFC8AD6AD5BDF929696F65C525292EFC5F95849B3A54B97FA
+                          9327DFA11A2C54AC0F5478F6A18CB7251FDF27A0CC4414DFC40AFAF07E33781D
+                          E8736912E5EEEB5DA1EC2CF02DF2CF401FA2CE9D2D5BB61C93959575134DBE07
+                          2F78C138DC50E561CFE0FDE58E3F2079896368696161617F4CEC5A567A240A0F
+                          867AE646AF24D10BA29F47A6811349ABBC8F075E271BECD774F5812A151618B8
+                          67AC2B3D36393979368AB6606FFE1A456F837F2538807437B08DCA537E8047A6
+                          DC89D062CA3B8CC300D52A2C305857EE75F01A4CF5D5C4C4C4B528DD73CB962D
+                          BFC34BFB83B1BB291B8CA8CF33FE282DF8552D18FC020FEA9351AD8F26817AFE
+                          00C6C92C87F4A97FA8910E11D47810E1806D5C054E002F012FE4BCEEDEAA55AB
+                          622EEE7E002F6442FC3EE567193FCE19A569CABE46AE007D6A89455AC059F0FC
+                          11693960EB3CCEA57DB4E76C7A7AFA011F02CA401C4E3188E9F115376085E302
+                          EE41C0E4948FB46A030CDA95F301C040E33A0637014FBEC8E3C89F377809F148
+                          63F557805F21331A0C3E67AA301841A5C71265D7D2E6821A465A1FD2FE8FC3AA
+                          E580B2F2B1745D80FA9AAA5F09FC50DD09F4DAE885C28B82336FB495C8CC8F27
+                          FD1ED49F15D7688519A46F683E2A1A4155354EEFE5BE47EB2CFD46550E54B85E
+                          2B5C19D0B03F3F52697F2EE84F812F81FA1B2EB740F04D4885C1082A5DE18604
+                          FAAF3CD23AD4409F8755E15A79B8EF03FC5FE1EF3BFCCF295CAF63A92E800319
+                          C0793DD5CF1FBD7AF57A8CE3A2C2679986047CD54002944B3B77EEDC20DFB26B
+                          05289C45A0F0414141C10E8386FDBEF3D0828F135C55FD3A12BC9FFF570185FD
+                          03C75022B0253E16EC1FD2A1052757654B4B4B2FF80F51BFAE6D0CD14F650000
+                          000049454E44AE426082}
+                        FileName = 
+                          'E:\Projetos\Solotect_Field\FieldPec\Filedpec\IMG\icons8-sensor-r' +
+                          'fid-50.png'
+                      end>
+                  end
+                end
+              end
+              inherited Layout143: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image92: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeReports: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeViewItem15: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout94: TLayout
+                  inherited Image1: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeRelEntradas: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout107: TLayout
+                  inherited Image79: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem16: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout120: TLayout
+                  inherited Image84: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem18: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreeViewItem19: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Layout220: TLayout
+                  inherited Image151: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeRelHistObs: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout147: TLayout
+                  inherited Image100: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeRelAnimaisRebanho: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout152: TLayout
+                  inherited Image108: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeRelGMD: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout98: TLayout
+                  inherited Image75: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem8: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreeEstoqueAtualCustoMedio: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout100: TLayout
+                    inherited Image96: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout99: TLayout
+                  inherited Image82: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem35: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout223: TLayout
+                  inherited Image150: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewItem41: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout225: TLayout
+                  inherited Image153: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited Layout75: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image38: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeRastreabilidade: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeCertificadora: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout45: TLayout
+                  inherited Image52: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeFornecedorBrincos: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout46: TLayout
+                  inherited Image53: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeEstoquedeBrincos: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout47: TLayout
+                  inherited Image54: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeBND: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout48: TLayout
+                  inherited Image55: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeComunicados: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Entrada: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout51: TLayout
+                    inherited Image58: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewNascimento: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout52: TLayout
+                    inherited Image59: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewMorte: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout50: TLayout
+                    inherited Image57: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeComReident: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout49: TLayout
+                    inherited Image56: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewComSaida: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout61: TLayout
+                    inherited Image67: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited TreeViewItem12: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout63: TLayout
+                    inherited Image69: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout10: TLayout
+                  inherited Image50: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeViewImportacao: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited TreeViewImportDataLiebracao: TTreeViewItem
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  inherited Layout62: TLayout
+                    inherited Image68: TImage
+                      MultiResBitmap.Height = 60
+                      MultiResBitmap.Width = 60
+                    end
+                  end
+                end
+                inherited Layout53: TLayout
+                  inherited Image60: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited Layout44: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image51: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  MultiResBitmap.LoadSize = 2
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeViewItem7: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout74: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image37: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeReportsDash: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout33: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image28: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeViewItem2: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout65: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image31: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeAlteraPropriedade: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout41: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image25: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeViewItem31: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout136: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image98: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeBaseCampo: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout115: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image103: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeCustoFixo: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited Layout231: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image158: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  MultiResBitmap = <
+                    item
+                      Width = 60
+                      Height = 60
+                      PNG = {
+                        89504E470D0A1A0A0000000D494844520000003C0000003C08060000003AFCD9
+                        72000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                        0C27494441546843D59A097095D515C7C91E599340B02C22114882B150206624
+                        89344E948A9D71A95D06C74E69877140B1326D993A03D5605BA0E330555B3BA3
+                        1D5C6AB1A52DE2420A4A6BB01212D44A08890D90103084261021849005425E7F
+                        FF2F276FF2C8E3BD174A5E5EFE3367BE7BCE3DF77EE7DCF5DCFB7D6143820C97
+                        CBA5774641E349DF03DDD1D9D939B5A3A3632CCF88E8E8E8FF86878757868585
+                        1540F9E81D81DA49BB780E2EE0D0301C9C73F1E2C54D6565651DA45D7A363636
+                        B69C3D7BB659A4747575F505E59D3E7DBA55BA94CBB4B2FF770705A587652834
+                        965E5A0ABB1C1AD5D6D6D6181919D9406F1E862FE37952BA3896C82385E734F5
+                        7A5555D588B4B4B466CAAF47FE3275D486746FCB59194F4FBDD4DD8338F229B2
+                        95500AF9E1A6EA06B248F292793E8E6EA1CA15141450C5C597914D36B5D00406
+                        4E92A132BAB5B5F50BD2AFCA19CB7680CE2864F3A019A435BF1D905663DD4499
+                        17191127B76DDBD649FA0FC8C69A4A68418E407932966723C63ECD738C653B80
+                        0F97B3172E5CA8267F13FC24CB7283FC44F2D69E3B77EE8C39FD73F4DC0D1312
+                        C020F5CE5D0CC97DB5B5B5E731F2F7F0E324371507C862A00791BBD02D229D69
+                        591E403E9A3A36689163A49C86BFD5B2420318A45E79DEE6ECC7F0E9F8E4315F
+                        E1A390E7A2B7450EB7B7B71F27FD6B643361234CCD0DE4D31809076C3E6F868F
+                        B1AC8107C6DC86A3C5F5F5F5EDA47F048DB02C0738A4953B159D423920870D1A
+                        FACFF3BCC1543DA0BAA444E3D4919E6DE280D16B85BC1AC01E0DDB1B71666A42
+                        42C261B6918FA0E6AE5C37C2D1FBFA8E1D3BE6666565D5907E02079EA14C0379
+                        A3E12F374737B6B4B4349D3F7F7E38E93BBA4481A3BF1C1E0E25151515C5B3BF
+                        EE4574DCCBDE2987D36263635D11111155E4FF16DD5FB1372F22BD96FCCFBBD4
+                        3C41DE09CAEC696A6A8AA67C86890346BF380C347C1372727254BF7AEFAC23F5
+                        840BE38FB282873184A7A1F34368167408C7F741ADA6E7016BB8F2D2D2D24874
+                        2741FDE543E060682AD0F82BC6088F5F3A7F05E45AC553B4085998D9C8303D46
+                        B93749679B9A5750EE27AA98B29F79ABDB17FAA575E8858B3C3A94C6AE488994
+                        EE09F51454C9707E70FAF4E9F9CCCBF0A8A8A80975757577E1C41268AAA97A43
+                        AC3DD5DBE7BB9281A1BFE6F0391ECE22453A8E47B7811E50C3409F307CBF3574
+                        E8500DCF8759E49A71368BEC195D5ABD81DEB89D3B777652B691B2ED260E08FD
+                        35FE9B30E48BEDDBB7AB07D453F18EB407303A02C77EC0102E227D3FA216A89A
+                        45AB1EB91AC8EB1E8BAEB6B3F4E4E4643596D7856D4020679893B5500DE95C19
+                        6A590EE0A37076A3EDC1DA7BB7B125ED51E8C8B390325E23297427AB8CC24CD2
+                        0F9978E081C11938F1BEC5BE4FC1275896033500B25938F7517373F3597897CE
+                        C134D051E40A2EB4CF7A00592475291E77999EAF791E5C60CC308C5B434F34B1
+                        9A5661E3ED32D8B21DC0EBE0908C9E8E7D5A75ABE197911C652A1E202F5D272E
+                        ADEA947901BDA09CE7030606CEA5073F3003DF84BF494E5AB60378C5D3DFB0A1
+                        FC01E95996E501E4DAEADED570B686B9D1B2420738138D614B197E47CCE997E0
+                        67F7EC193500B274F2FE01AD273DC1B21C58FE0CF25E6D686868D3DC855F66D9
+                        A1070C8E87F214ECDB29271F83EF83DC739AF435501A7A3740EEC640A68BBDBB
+                        29F3964E5D9A1EA43587BD6E7321038C9E00ADA4A73FD7D065481EC2F0E7903D
+                        00CD82AE858641725C69C916A2F32CBAFFD1791A280A5B8DB31E17087D45D026
+                        3D866A2FBE07471E209ACA3978F060447676F651F6EB2AE4F5908215EDDB5A9D
+                        D5B353CE9C39338148CC3572E4C8DDECB9AF439B156C907FC508EA2A87130A26
+                        D2A0AFD20077D27BB3636262BCF61853A08150B30407DF83DDC9733FD4D695EB
+                        1BD41D0769CBD2B451635674476403B2ACE3F8301E49D0784837977A6A048461
+                        D869F8E3A42B2145524771B419BAF478D90B94D3913107FA2E948A4873BD85B2
+                        A5D033D0678EE24001A3147C68EE8E86C641E32DAD4BF75E573CBE80BE9CBD97
+                        AD6D8F2EF049BB61D74C1F52EF75A63EB8814FBAC75E80539F2A5A0315F02BA0
+                        F92C746B08564E49AE45D08A0C5EE06C049483B37BB5D7E36C398E7E13D950E5
+                        9156C4F7A2F6704569566C700287149464E06CA96D7707E11722F70861917DDF
+                        0E1B7ED701BFA00E1DD774DDA239A48BF754289B97E44273494FE2A939A9FC3E
+                        CD4B5FA02E2702C3D91273B612D922C94DC581787A78BDE6B1BE7E98B8EFA022
+                        CD9B0428930AD7F262F7A9A727640C41432D3ABA47D6EA3999A716A7BE9016B4
+                        44CA0EB577CB5945669F586C7D187E09BC47838A473EBF3BE0817FC5B2020785
+                        B4B26A255D8013F99A37AA4C2DD8D6D6D620E7A0A346C7D84FEB1512DAB9F78A
+                        A0BB6D1A743FEFD407B88990AE808B7B1C241E45CDDB492C1DBD8F4DAF127E5A
+                        9FF6612AD102A1AF7A4B9A9A9A1E2A292989CECCCCAC271AAA618F2B837425AB
+                        0FD8A7A04E48C7BCB1E87F99673A2FD47EDBE7AF05948FA2D146171717C7CC9F
+                        3F7F2BFC68DD67E7E6E6D64446463ECB7B7F035D3075A75320D9F9348BD5D7E2
+                        E3E34FA2B7149DFC801DA6B09CCD80F2080D6F8B8B8B6B8D8D8DD505FB16B2DF
+                        2160A8E9D2F40ECA697ECF24A9C8AAAF01CF28DE338FE7BD4AEBEA08678FE3C4
+                        73C81550785CE4D1B0D7F1AE558CB88574465B7474F46A74364001456A4E8B51
+                        C9CD0CE1F72D90D75DF33A556C2AFD0EDE3582F7BFADE1697F08E8FAB7D76841
+                        3616BDD59A4AE8E8EA680DCF5E776A3E41254914DCC8303EA7B909FFA8B797F5
+                        3778E74A39ABF582B4B7BB6E7D675ECA7CAD920E366F80BF1EB9FF1185923E85
+                        8CA1408AB5589D7DA6D425B8B35A0613BC7338766CEA5E80649F6539808FC5B6
+                        FB59A44A2CAAD285FE57208F95DBABE72869BEE9A67101ECB5149E5958583871
+                        DEBC79AF300F56417550C09BB8D59743B29E72FF863424B577CF45A67B6B9F40
+                        5F87803934FA624E57DA21D630375776E53AF5ABAE4CF49E2A2F2FCF4E4D4DDD
+                        CD9A9207BF0BF27D514F410D8BC5B45499CD959E5807F56D3E00EABB93FA76D1
+                        706F759747760BB23DD07E7F448F56688FD7F6471DEF51F67AA762407D5A5FF4
+                        5BC41BB67D95C27F07B9FF5188E20868312F382467295C4445EB79EEB1C5EA08
+                        F98F40D758918080FE6CEAF99BEAD23B4C96A17D1BC3FC42A71F396DE53DBE48
+                        C04F44FE82A2285B5F1EA388D75B4F0FA0A4607B111557DB85DB3FE16FA78244
+                        E856F802350295D6C23F4C5EC06122FAFAAD610AA45F1E9CB9A7F7C16B9BCBF6
+                        47E8CD856642DAD3DDD390741CB2277936EA60808D6BE1F5DB936F5040B78B0B
+                        71E6989C05BB90E9201D6DF99A2373907F28A7E99913E80FE8CD21EF57237E4F
+                        8EDA0F6CAFC16BFFF5BD22A3A010ECDB3871522B204E15C36721F7F8020FAFB8
+                        54BF1539F1ABC24578FD68167498CD0BB4D7DA68DC01AFC8CAFFF683E2DD1AFF
+                        5A1070762FBC86D9E5566F2D1029E895495FFB327C509DC6068DC6153D6CD622
+                        75599B7B8102FB5076FEA0A1E07D8114446F0A73FD805E683DDD6B4EC36B1FD7
+                        9150FBA3AE5FAF8828AFB9AE1393E6F12ADEABCF362EDB8FF5413CD75E191828
+                        F098967CFB97AA7B68F8FD8C8ADE14F5B48694A603BC9C8E85340AB4DAEB34F5
+                        2735A47464E4D580ECB405EA1DDE9162E6048CEEC3FB0A0C5BC1101D3666CC98
+                        1D6CD63F852A207DC9BF2CF442E88F151515B3929393EB09E6F533CABB9016C0
+                        65959595094949492D0AE0A94BA7A72B853E7E7740AD0414BAAE7D0DDA0AF9B4
+                        CF1B9CE18BC3DA929663E4727A7B24C7A9BF53994E18E590F3EB823750460D36
+                        03A77FC7A67F736262E2099C3B80517318EA119CA6746454B4730075AF3FA904
+                        089D721AAC1E456B57E5AA467BDA4A0D41BBE6FC0BBCFEAAF138585F0AF2B57A
+                        EB2455A0E1062FE894B291E71CE8AA5DEB5C75609C0E0BABB41F6B05D61C84D7
+                        D73E7F4EEBBA278B39FD2FD2FA677237BCCEAFA10F0CD5C7AC9FE1748D39AD9E
+                        D2A9C3A7D3941909AD90C394D94EFAB23FA5841C3056DBC0133D9D86F7FAC3A7
+                        20B9F2D1DB6201BED7DF80431A38A04F9C4FF618DEAFC3EBA6B0D77E2B39F97F
+                        D6A11B7D05F0BA4174C2D24105398DE17938512BA7496B2173EFD33C9DC80B67
+                        376BA163C1AB23AD6FB85F722A188CC0A1717242CE5890FE060E4D366775F5B3
+                        559F3174A04096874C3793831B38A18BB15FE014BE35B4917E1BD92D3C9D4B3D
+                        229F53F0BA33F67F341B2CC099041CFC25BDD8A89B05CD551D1515C4CB59E4FE
+                        0FDD830D38A5FFA0D7D97C76E25A9CFD31C9A05FEA050D38A75F06D7DA307E04
+                        DEE7FE1C5A1832E47F1136BCDE4BF61B150000000049454E44AE426082}
+                      FileName = 'E:\Projetos2022\Field\Field2023\FieldPec\IMG\hand.png'
+                    end>
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+            inherited TreeViewAuxiliares: TTreeViewItem
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              inherited TreeGerenteOperacional: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout257: TLayout
+                  inherited Image166: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeResponsavelRastre: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout258: TLayout
+                  inherited Image167: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited TreeMedicoVet: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout259: TLayout
+                  inherited Image168: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                  end
+                end
+              end
+              inherited Layout260: TLayout
+                Size.Height = 0.000000000000000000
+                inherited Image169: TImage
+                  MultiResBitmap.Height = 60
+                  MultiResBitmap.Width = 60
+                  Size.Height = 0.000000000000000000
+                end
+              end
+            end
+          end
+        end
+      end
+      inherited layDashB: TLayout
+        inherited Layout54: TLayout
+          inherited Layout92: TLayout
+            inherited Rectangle7: TRectangle
+              inherited Layout93: TLayout
+                inherited Image30: TImage
+                  MultiResBitmap.Height = 250
+                  MultiResBitmap.Width = 421
+                  MultiResBitmap.LoadSize = 2
+                end
+                inherited lblPropriedadeLogada: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited layPainel: TLayout
+                  inherited recPst: TRectangle
+                    inherited Layout164: TLayout
+                      inherited layPasto: TLayout
+                        inherited recMachoPst: TRectangle
+                          inherited Layout167: TLayout
+                            inherited Image120: TImage
+                              MultiResBitmap.Height = 64
+                              MultiResBitmap.Width = 64
+                            end
+                            inherited lblPastoMacho: TLabel
+                              TextSettings.Font.StyleExt = {00070000000000000004000000}
+                            end
+                          end
+                        end
+                        inherited recFemeaPst: TRectangle
+                          inherited Layout166: TLayout
+                            inherited Image121: TImage
+                              MultiResBitmap.Height = 64
+                              MultiResBitmap.Width = 64
+                            end
+                            inherited lblPastoFemea: TLabel
+                              TextSettings.Font.StyleExt = {00070000000000000004000000}
+                            end
+                          end
+                        end
+                        inherited Label62: TLabel
+                          TextSettings.Font.StyleExt = {00070000000000000004000000}
+                        end
+                      end
+                    end
+                  end
+                  inherited recConf: TRectangle
+                    inherited Layout165: TLayout
+                      inherited Label63: TLabel
+                        TextSettings.Font.StyleExt = {00070000000000000004000000}
+                      end
+                      inherited layConfinamento: TLayout
+                        inherited recFemeaConf: TRectangle
+                          inherited Layout168: TLayout
+                            inherited Image123: TImage
+                              MultiResBitmap.Height = 64
+                              MultiResBitmap.Width = 64
+                            end
+                            inherited lblConfFemea: TLabel
+                              TextSettings.Font.StyleExt = {00070000000000000004000000}
+                            end
+                          end
+                        end
+                        inherited recMachoConf: TRectangle
+                          inherited Layout169: TLayout
+                            inherited Image122: TImage
+                              MultiResBitmap.Height = 64
+                              MultiResBitmap.Width = 64
+                            end
+                            inherited lblConfMacho: TLabel
+                              TextSettings.Font.StyleExt = {00070000000000000004000000}
+                            end
+                          end
+                        end
+                      end
+                    end
+                  end
+                end
+              end
+            end
+          end
+        end
+        inherited layAtualizaGeral: TLayout
+          inherited Rectangle25: TRectangle
+            inherited imgSync: TImage
+              MultiResBitmap.Height = 512
+              MultiResBitmap.Width = 512
+            end
+          end
+        end
+        inherited TabControl1: TTabControl
+          Sizes = (
+            1037s
+            651s
+            1037s
+            651s)
+          inherited TabItem1: TTabItem
+            ExplicitSize.cx = 122.000000000000000000
+            ExplicitSize.cy = 30.000000000000000000
+            inherited Layout174: TLayout
+              inherited imgInsumo: TImage
+                MultiResBitmap.Height = 512
+                MultiResBitmap.Width = 512
+              end
+            end
+            inherited Layout176: TLayout
+              inherited Rectangle27: TRectangle
+                inherited Layout177: TLayout
+                  inherited Image124: TImage
+                    MultiResBitmap.Height = 64
+                    MultiResBitmap.Width = 64
+                  end
+                  inherited lblUltimoFornecimento: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+              inherited Rectangle26: TRectangle
+                inherited Layout175: TLayout
+                  inherited Image125: TImage
+                    MultiResBitmap.Height = 64
+                    MultiResBitmap.Width = 64
+                  end
+                  inherited lblUltimaBaixaEstoque: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+              inherited Rectangle28: TRectangle
+                inherited Layout180: TLayout
+                  inherited Image126: TImage
+                    MultiResBitmap.Height = 64
+                    MultiResBitmap.Width = 64
+                  end
+                  inherited lblUltimaEntradaAnimal: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+          end
+          inherited TabItem2: TTabItem
+            ExplicitSize.cx = 59.000000000000000000
+            ExplicitSize.cy = 30.000000000000000000
+            inherited LayPieCategoria: TLayout
+              inherited imgField: TImage
+                MultiResBitmap.Height = 400
+                MultiResBitmap.Width = 550
+              end
+            end
+          end
+        end
+      end
+      inherited Layout8: TLayout
+        inherited Rectangle5: TRectangle
+          inherited lblUserLogado: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited lblDB: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+      inherited layAlteraProp: TLayout
+        inherited Rectangle14: TRectangle
+          inherited Layout42: TLayout
+            inherited Layout43: TLayout
+              inherited Label22: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited Image47: TImage
+              MultiResBitmap.Height = 250
+              MultiResBitmap.Width = 421
+              MultiResBitmap.LoadSize = 2
+            end
+          end
+        end
+      end
+      inherited Layout6: TLayout
+        inherited imgClose: TImage
+          MultiResBitmap.Height = 60
+          MultiResBitmap.Width = 60
+        end
+        inherited imgMenu: TImage
+          MultiResBitmap.Height = 16
+          MultiResBitmap.Width = 16
+          MultiResBitmap.LoadSize = 2
+        end
+      end
+    end
+    inherited tbiAux: TTabItem
+      ExplicitSize.cx = 55.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    inherited tbiListaAnimais: TTabItem
+      ExplicitSize.cx = 96.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout25: TLayout
+        inherited Layout26: TLayout
+          inherited ScrollBox2: TScrollBox
+            Viewport.Width = 1338.000000000000000000
+            Viewport.Height = 289.000000000000000000
+            inherited Pme: TGroupBox
+              inherited memoExcel: TMemo
+                Viewport.Width = 50.000000000000000000
+                Viewport.Height = 50.000000000000000000
+              end
+              inherited edtLocalOrigem: TEdit
+                inherited EditButton6: TEditButton
+                  Size.Height = 50.000000000000000000
+                end
+                inherited ClearEditButton1: TClearEditButton
+                  Size.Height = 50.000000000000000000
+                end
+              end
+            end
+          end
+        end
+        inherited Layout28: TLayout
+          inherited layImgAguarde: TLayout
+            inherited gridAnimais: TTMSFMXLiveGrid
+              TopRow = 0
+            end
+          end
+          inherited Layout90: TLayout
+            inherited btnExportaGrid: TRectangle
+              inherited Layout81: TLayout
+                inherited Image43: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                  MultiResBitmap.LoadSize = 2
+                end
+                inherited Label48: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited btnImprimir: TRectangle
+                  inherited Layout96: TLayout
+                    inherited Image74: TImage
+                      MultiResBitmap.Height = 48
+                      MultiResBitmap.Width = 48
+                      MultiResBitmap.LoadSize = 2
+                    end
+                    inherited Label13: TLabel
+                      TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    end
+                  end
+                end
+              end
+            end
+            inherited btnLocalizarAnimais: TRectangle
+              inherited Layout24: TLayout
+                inherited Image23: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                  MultiResBitmap.LoadSize = 2
+                end
+                inherited Label47: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+            inherited Memo1: TMemo
+              Viewport.Width = 50.000000000000000000
+              Viewport.Height = 50.000000000000000000
+            end
+          end
+        end
+      end
+      inherited P: TToolBar
+        inherited Label12: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Layout30: TLayout
+          inherited Image22: TImage
+            MultiResBitmap.Height = 60
+            MultiResBitmap.Width = 60
+          end
+        end
+      end
+      inherited layAlteracao: TLayout
+        inherited RecStatusAcao: TRectangle
+          inherited Layout108: TLayout
+            inherited Layout109: TLayout
+              inherited Image80: TImage
+                MultiResBitmap.Height = 273
+                MultiResBitmap.Width = 280
+                MultiResBitmap.LoadSize = 2
+              end
+            end
+            inherited Layout110: TLayout
+              inherited Layout111: TLayout
+                inherited Layout112: TLayout
+                  inherited Layout113: TLayout
+                    inherited btnConfirmar: TRectangle
+                      inherited Layout114: TLayout
+                        inherited Image81: TImage
+                          MultiResBitmap.Height = 48
+                          MultiResBitmap.Width = 48
+                          MultiResBitmap.LoadSize = 2
+                        end
+                        inherited Label24: TLabel
+                          TextSettings.Font.StyleExt = {00070000000000000004000000}
+                        end
+                      end
+                    end
+                    inherited btnCancel: TRectangle
+                      inherited Layout116: TLayout
+                        inherited Image83: TImage
+                          MultiResBitmap.Height = 48
+                          MultiResBitmap.Width = 48
+                          MultiResBitmap.LoadSize = 2
+                        end
+                        inherited Label25: TLabel
+                          TextSettings.Font.StyleExt = {00070000000000000004000000}
+                        end
+                      end
+                    end
+                  end
+                end
+              end
+              inherited msg: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited layAlteraPeso: TLayout
+                inherited Layout117: TLayout
+                  inherited Label26: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                  inherited Label27: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+              inherited layAlteraValorEntrada: TLayout
+                inherited Layout118: TLayout
+                  inherited Label28: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                  inherited Label29: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+              inherited layAlteraData: TLayout
+                inherited Layout119: TLayout
+                  inherited Label30: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                  inherited Label31: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+              inherited LayAlteraEraEntrada: TLayout
+                inherited Layout121: TLayout
+                  inherited Label32: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                  inherited Label33: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+              inherited layConfirmaSenha: TLayout
+                inherited Layout134: TLayout
+                  inherited Label34: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+              inherited layAltera: TLayout
+                inherited Layout227: TLayout
+                  inherited Label94: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                  inherited Label96: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+    inherited tbiDashBoard: TTabItem
+      ExplicitSize.cx = 92.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout35: TLayout
+        inherited Rectangle9: TRectangle
+          inherited layMnuDash: TLayout
+            inherited TreeView1: TTreeView
+              Viewport.Width = 233.000000000000000000
+              Viewport.Height = 826.000000000000000000
+              inherited TreeViewItem13: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout76: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image40: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited TreeViewItem17: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout80: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image44: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+              inherited TreeViewItemFin: TTreeViewItem
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                inherited Layout73: TLayout
+                  Size.Height = 0.000000000000000000
+                  inherited Image34: TImage
+                    MultiResBitmap.Height = 60
+                    MultiResBitmap.Width = 60
+                    MultiResBitmap.LoadSize = 2
+                    Size.Height = 0.000000000000000000
+                  end
+                end
+              end
+            end
+          end
+          inherited LayDash: TLayout
+            inherited Image3: TImage
+              MultiResBitmap.Height = 250
+              MultiResBitmap.Width = 421
+              MultiResBitmap.LoadSize = 2
+            end
+          end
+        end
+      end
+      inherited Layout16: TLayout
+        inherited Label15: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Layout34: TLayout
+          inherited Image29: TImage
+            MultiResBitmap.Height = 60
+            MultiResBitmap.Width = 60
+          end
+        end
+        inherited Image10: TImage
+          MultiResBitmap.Height = 16
+          MultiResBitmap.Width = 16
+          MultiResBitmap.LoadSize = 2
+        end
+      end
+    end
+    inherited tbiConfig: TTabItem
+      ExplicitSize.cx = 70.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar2: TToolBar
+        inherited Layout66: TLayout
+          inherited Image32: TImage
+            MultiResBitmap.Height = 60
+            MultiResBitmap.Width = 60
+          end
+        end
+        inherited Label36: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited Image33: TImage
+        MultiResBitmap.Height = 250
+        MultiResBitmap.Width = 421
+        MultiResBitmap.LoadSize = 2
+      end
+      inherited ToolBar4: TToolBar
+        inherited Layout70: TLayout
+          inherited btnConfirma: TRectangle
+            inherited Layout71: TLayout
+              inherited Image35: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+                MultiResBitmap.LoadSize = 2
+              end
+              inherited Label38: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited btnCancelar: TRectangle
+            inherited Layout72: TLayout
+              inherited Image36: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+                MultiResBitmap.LoadSize = 2
+              end
+              inherited Label39: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+        end
+      end
+      inherited Rectangle13: TRectangle
+        inherited Layout67: TLayout
+          inherited PTIMA: TLayout
+            inherited Layout68: TLayout
+              inherited Layout69: TLayout
+                inherited Label37: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited B: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label35: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label55: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label56: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label59: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label111: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+          end
+        end
+        inherited Layout82: TLayout
+          inherited Layout83: TLayout
+            inherited Layout84: TLayout
+              inherited Layout85: TLayout
+                inherited Label52: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Layout86: TLayout
+                inherited btnGerarCustoFixo: TRectangle
+                  inherited Layout88: TLayout
+                    inherited Image24: TImage
+                      MultiResBitmap.Height = 48
+                      MultiResBitmap.Width = 48
+                      MultiResBitmap.LoadSize = 2
+                    end
+                    inherited Label51: TLabel
+                      TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    end
+                  end
+                end
+              end
+              inherited Layout87: TLayout
+                inherited GridCustoFixo: TStringGrid
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  Viewport.Width = 1296.000000000000000000
+                  Viewport.Height = 80.000000000000000000
+                  inherited StringColumn1: TStringColumn
+                    Size.Width = 70.000000000000000000
+                  end
+                end
+              end
+            end
+          end
+        end
+        inherited Layout122: TLayout
+          inherited Layout123: TLayout
+            inherited Layout124: TLayout
+              inherited Layout125: TLayout
+                inherited Label57: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Layout126: TLayout
+                inherited bntGMDAno: TRectangle
+                  inherited Layout127: TLayout
+                    inherited Image85: TImage
+                      MultiResBitmap.Height = 48
+                      MultiResBitmap.Width = 48
+                      MultiResBitmap.LoadSize = 2
+                    end
+                    inherited Label58: TLabel
+                      TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    end
+                  end
+                end
+              end
+              inherited Layout128: TLayout
+                inherited gridGMDAno: TStringGrid
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  Viewport.Width = 1308.000000000000000000
+                  Viewport.Height = 229.000000000000000000
+                end
+              end
+            end
+          end
+        end
+        inherited Layout244: TLayout
+          inherited Layout245: TLayout
+            inherited Layout246: TLayout
+              inherited Layout247: TLayout
+                inherited Label112: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label113: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label114: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited LBLCNPJ: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label115: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+          end
+        end
+        inherited Layout248: TLayout
+          inherited Layout249: TLayout
+            inherited Layout250: TLayout
+              inherited Layout251: TLayout
+                inherited Label116: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label117: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label118: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label119: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label120: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+                inherited Label121: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+          end
+        end
+        inherited Layout252: TLayout
+          inherited btnAbreImgInicial: TRectangle
+            inherited Layout254: TLayout
+              inherited Label122: TLabel
+                TextSettings.Font.StyleExt = {00060000000000000004000000}
+              end
+            end
+          end
+          inherited Rectangle54: TRectangle
+            inherited Layout256: TLayout
+              inherited Label123: TLabel
+                TextSettings.Font.StyleExt = {00060000000000000004000000}
+              end
+            end
+          end
+        end
+      end
+    end
+    inherited tbiSyncBaseCampo: TTabItem
+      ExplicitSize.cx = 156.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout195: TLayout
+        inherited Layout199: TLayout
+          inherited Layout200: TLayout
+            inherited Label49: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited Label50: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited Label71: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+        inherited Layout204: TLayout
+          inherited Rectangle38: TRectangle
+            inherited Label73: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited Layout205: TLayout
+              inherited Image107: TImage
+                MultiResBitmap.Height = 60
+                MultiResBitmap.Width = 60
+              end
+            end
+          end
+        end
+        inherited Layout206: TLayout
+          inherited Rectangle39: TRectangle
+            inherited Label74: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+        inherited Layout207: TLayout
+          inherited Layout208: TLayout
+            inherited Layout209: TLayout
+              inherited Label75: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label76: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label77: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label78: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label79: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label80: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label90: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited Layout211: TLayout
+            inherited Layout212: TLayout
+              inherited bntSync: TRectangle
+                inherited Layout213: TLayout
+                  inherited Image140: TImage
+                    MultiResBitmap.Height = 48
+                    MultiResBitmap.Width = 48
+                    MultiResBitmap.LoadSize = 2
+                  end
+                  inherited Label81: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+            inherited Rectangle41: TRectangle
+              inherited mlogSync: TMemo
+                Viewport.Width = 1288.000000000000000000
+                Viewport.Height = 477.000000000000000000
+              end
+            end
+          end
+          inherited Layout150: TLayout
+            inherited Layout214: TLayout
+              inherited Label84: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label85: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label83: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Label91: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+        end
+      end
+    end
+    inherited tbiBCMulti: TTabItem
+      ExplicitSize.cx = 96.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout216: TLayout
+        inherited Image144: TImage
+          MultiResBitmap.Height = 60
+          MultiResBitmap.Width = 60
+        end
+      end
+      inherited Layout217: TLayout
+        inherited btnEntradaBC: TRectangle
+          inherited Label87: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Image146: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+        end
+        inherited btnSaidaBC: TRectangle
+          inherited Label88: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Image147: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+          end
+        end
+        inherited Layout229: TLayout
+          inherited btnReprocessamento: TRectangle
+            inherited Label102: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited Image156: TImage
+              MultiResBitmap.Height = 512
+              MultiResBitmap.Width = 512
+            end
+          end
+          inherited btnMoviBC: TRectangle
+            inherited Label89: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited Image148: TImage
+              MultiResBitmap.Height = 512
+              MultiResBitmap.Width = 512
+            end
+          end
+        end
+      end
+      inherited Rectangle43: TRectangle
+        inherited Image145: TImage
+          MultiResBitmap.Height = 250
+          MultiResBitmap.Width = 421
+          MultiResBitmap.LoadSize = 2
+        end
+      end
+      inherited Layout222: TLayout
+        inherited Rectangle46: TRectangle
+          inherited lblDbBaseCampo: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+  end
+  inherited layPopUpCad: TLayout
+    inherited recPopup: TRectangle
+      inherited layIMportaLincagem: TLayout
+        inherited Layout235: TLayout
+          inherited Layout236: TLayout
+            inherited Label103: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Image161: TImage
+            MultiResBitmap.Height = 64
+            MultiResBitmap.Width = 64
+          end
+        end
+        inherited Layout237: TLayout
+          inherited Rectangle48: TRectangle
+            inherited Label104: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+        inherited Layout238: TLayout
+          inherited Layout240: TLayout
+            inherited Rectangle49: TRectangle
+              inherited edtArquivo: TEdit
+                TextSettings.Font.StyleExt = {00060000000000000004000000}
+              end
+            end
+          end
+          inherited Layout241: TLayout
+            inherited btnImportar: TRectangle
+              inherited Label107: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Image162: TImage
+                MultiResBitmap.Height = 64
+                MultiResBitmap.Width = 64
+                MultiResBitmap = <
+                  item
+                    Width = 64
+                    Height = 64
+                    PNG = {
+                      89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                      DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      05E349444154785EED9B5D681C551480B39BCD2626313F8DC62AA8696BA92636
+                      1A536A9A88F850B1D5D2271F7C3162044514548A4590F4A1FE167DD0F8200A15
+                      29FAD01741215445A42F49238842498CD53E64ED4B130D21BFCD26D9ACDF9939
+                      1976767637B36B763266F783E1DE73EEB933F79E7BE7CCBDB33B81924D667575
+                      F51692F64020D04EBE3D1E8FEF088542779BA5F9C73307D0B110C71EB2D2D966
+                      3ADBB2BCBC7CA0BCBCBCC1B4308946A3FF545454DCA862DEC98B03E868986337
+                      591951E3989B9BBBAFB6B6F63AD3223DFF3B073092358C68EB5A4783C160F3C4
+                      C4C4DEC6C6C6B09A6485D70EC80A3A58CFF1009D7E29168B9D610A8F0C0C0CAC
+                      A2DB30161717FFD6CB7942DA19901C9C565656DAC3E1F0CD6669FEF0FC16C0E9
+                      467092C084DC229D65643B084E379826DEE2B903A6A6A6AED5D5D555A8BCE924
+                      3A80C1E86670BA8C820D8601BF42F2A1CC80B8A9F207890E20CE9C26A8F61805
+                      7900077F1DD47C41C2EC3F54D00E686868282F6807084507685AB0F8FA294094
+                      3E46F30E190549A0AF2A2D2D3D2079166997D841CE190519181B1BBBA7A9A929
+                      A4A28938C04FB85D0A637AA759231EC751AED60A726EAD62518C019A162CC520
+                      28F781E61DB029BA42A039A7A20DAADD4BD97E1553C252768035F7888A89EC64
+                      897B50F33692826033F56557EA80EBDF4AD9679AEF257FC928C8C0C2C2C2E9CA
+                      CACAEB55341107A4637C7C3C4A23E4359603F4BB86878757D4D4C1ECECEC1CC9
+                      7635B74017C0313F1A4629480C82B2175075DEC8E80081467CAFED7140D95935
+                      7340D94935B381E39E54939478ED8075630053F5611AFD988A3698766F0F0E0E
+                      3A6E2199C694BDAFA205E7A9E1B63AA5A23F50476484465FA6F1E55AC506A3D4
+                      AF6616D8BEA2C536B0ED5393B4783D035CAF04313BCE6C784F450B3ADBC1685F
+                      505102678455D91E6CA3AA32C06E6F2412F9C5B1124B228B1722DBB9C651C960
+                      F70DC955C967626666A6DBF1F2471CE086F9F9F9192E942E229F37AD8CD17F4A
+                      D516A8032C57074D8BCCB85D09729D2EADE2CD4A501E1F72CFAB6883F3BC2329
+                      5376189B2F0C650294F7ACADDBFD46560B21025E37DEBE5F450BA6E2778CF09F
+                      A47D3820A66A03ECB72D2D2DBDABA2FF30E64176FCCCE1701CBAD738EA54B460
+                      567C2295DCE2F52D90EB76F86946FA73CD1B709A10BA15150D68D8FE0BD0D9D9
+                      E97AA62505C1C324AD924F86EBDDCE8C7B5EF2D87DCCB5234641068863BDD5D5
+                      D5552A9A8803B285465E25A9D553A484F220B7C54F46852CF0FA3198550C5823
+                      1C0EDF84D75F5731259CFBD9F5F60A7E20270728659AA66342535F93930358EC
+                      FCC5FDD7AB624A28FF8A59D2AFA26FC9290852E5513A68DB26D3D92A74F32A1A
+                      60B7737A7A7AD8CDFF02D6F07D1024307DA9556DA0FF40B33668DC09ADEA0ADF
+                      AE04054667124F3B363A3460D7E8E8E88BA477A82A91533C0DFED0BCEFC8CA01
+                      44FF634C3B4770C391275B5A5A4A25559505F65136472FA8E83B5C3B80D13DCF
+                      E89F51D1027DEBD0D0D013929714B9CD2848807A3FA03FABA2AF7015040964D7
+                      6A6A6A5A19CDCBAAB2E0DEFF16FD232A8A43FA79FE1F51D182CBC8EBB1DF3932
+                      2EA07CB91DE602AFAAB90DF40FAA49320FA9890DEC5FD6F2B4F86E2548232E32
+                      85D345F894BB3CEABCA9591B9CE723CA7E55D1176474C0C8C8488CE9DC43C397
+                      556541E71F4FB7C747DF45B9E33D22E789316D9F635BBDAAAACD4767424A182D
+                      C78B4D81A2525683BF9956A9E1D1779124A58339EFA7A69513AF6F81B4415046
+                      A9A3A3E32D46CDB6BA13A8B29B917C46C5B4300B52AED0A8BF8DFAC755B49114
+                      04F7517F87519004E7907FB6BDA1F9FCFC30B219F87A25B815293A40D38225D7
+                      7782792329089E20B819ABBD6478CA54CB0F309ACFF92F32BE76803C06795AE4
+                      ED9FA2423106685AB0141DA06941323939192D6807D4D7D79F2BE40F26221C7D
+                      F21874F53D9F57243AC00BB2F9686A5F381C76FCEB6BA3F1DA0159214E61B61C
+                      24DD329FCDFD6768732D87ED5BC24CFF1F5C0FAF1D50FC7456D3BC8313AC602B
+                      0E216D66B6B46DC98FA7DD8223821CF2735A1BC1B68DDB488EDBCACACAEE322D
+                      F24D49C9BF7651A2AC76E9546A0000000049454E44AE426082}
+                    FileName = 
+                      'E:\Projetos2022\Field\Field2023\FieldPec\Filedpec\IMG\excel-file' +
+                      '.png'
+                  end>
+              end
+            end
+            inherited btnExportaAnimais: TRectangle
+              inherited Label108: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited Image163: TImage
+                MultiResBitmap.Height = 64
+                MultiResBitmap.Width = 64
+                MultiResBitmap = <
+                  item
+                    Width = 64
+                    Height = 64
+                    PNG = {
+                      89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                      DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      05E549444154785EED9B5D681C551480B39BCD2626313F8DC62AA8696BA92636
+                      1A536AC38AF850B156F1C9075F8C18411105956211247DA8BF451F343E884245
+                      8A3EF44550085511E9437E1044A124C66A1FB2F6A5898690DF66936CD6EFCC9C
+                      0C3B3BBB9BD9353B19B3FBC170EF39F7DC997BCFBD73E6DED99D40D916B3B6B6
+                      761349672010E824DF994824768542A13BCDD2C2E39903E85888631F59E96C2B
+                      9D6D5B5959E9AAACAC6C322D4C62B1D83F555555D7AB58700AE2003A1AE6D84B
+                      5646D438E6E7E7EFA9AFAFBFC6B4C8CCFFCE018C641D23DABEDED16030D83A39
+                      39B9BFB9B939AC2639E1B50372820E3672DC47A75F8AC7E36798C2A30303036B
+                      E8368DA5A5A5BFF5729E907106A406A7D5D5D5CE70387CA3595A383CBF0570BA
+                      119C243021B7496719D94304A7EB4C136FF1DC01D3D3D3571B1A1AAA54DE7292
+                      1DC06074333811A3609361C02F937C28332061AAFC41B2038833A709AA3D4641
+                      01C0C15F07355F9430FB8F14B5039A9A9A2A8BDA0142C9019A162DBE7E0A10A5
+                      8FD1BC2346410AE86BCACBCBBB24CF22ED223BC879A3200BE3E3E377B5B4B484
+                      54341107F809B74B614C6F376B241238CAD55A41CEAD552C4A3140D3A2A51404
+                      E53ED0BC033645970934E754B441B5BB293BA8625A58CA0EB2E61E553199DD2C
+                      710F6BDE464A106CA5BEEC4A1D70FD9B29FB4CF3BDE42F1A0559585C5C3C5D5D
+                      5D7DAD8A26E2804C4C4C4CC46884BCC672807ECFC8C8C8AA9A3A989B9B9B27D9
+                      A9E616E80238E647C3280DC94150F602AA2E18591D20D088EFB53D0E283BAB66
+                      0E283BA9663670DC936A9216AF1DB0610C60AA3E48A31F51D106D3EEEDC1C141
+                      C72D24D398B2F755B4E03C75DC56A754F407EA88ACD0E84B34BE52ABD86094FA
+                      D5CC02DB57B4D806B67D6A9211AF6780EB952066C7990DEFA96841670F31DAC3
+                      2A4AE08CB22ADB876D4C5506D8ED8F46A3BF38566229E4F0426427D7784C32D8
+                      7D437245F2D9989D9DED76BCFC1107B861616161960B658AC8E74D2B63F49F52
+                      B505EA00CBD521D3223B6E57825C27A255BC5909CAE343EE79156D709E772465
+                      CA8E60F385A14C82F29EF575BBDFC8692144C0EBC6DBF7AA68C154FC8E11FE93
+                      B40F07C4556D80FD8EE5E5E57755F41FC63CC88D9F391C8E43F71A47838A16CC
+                      8A4FA4925BBCBE05F2DD0E3FCD487FAE79034E1342B7AAA2010D3B383434341C
+                      89445CCFB49420F83049BBE453E17AB732E39E973C761F73EDA8519005E2586F
+                      6D6D6D8D8A26E2805CA1915748EAF51469A13CC86DF193512107BC7E0CE61403
+                      D60987C337E0F5D7554C0BE77E76A3BD821FC8CB014A85A69998D4D4D7E4E500
+                      163B7F71FFF5AA9816CABF6296F4ABE85BF20A8254394A076DDB643A5B836E41
+                      4503EC76CFCCCC8CB8F95FC03ABE0F8204A62FB5AA0DF41F68D6068D3BA1555D
+                      E1DB95A0C0E84CE169C7468706EC191B1B7B91F4365525738AA7C11F9AF71D39
+                      3980E87F8C69E7086E38F2645B5B5BB9A4AAB2C03EC6E6E805157D876B0730BA
+                      E719FD332A5AA06F1F1E1E7E42F292227718054950EF07F46755F415AE822081
+                      EC6A5D5D5D3BA379495516DCFBDFA27F484571483FCFFF4755B4E032F27AEC77
+                      8EAC0B285F6E87B9C0AB6A6E03FDFD6A92CA036A6203FB97B53C23BE5B09D288
+                      0B4CE14C113EED2E8F3A6F6AD606E7F988B25F55F405591D303A3A1A673AF7D0
+                      F0155559D0F9C733EDF1D1472877BC47E43C71A6ED736CABD754B5F5E84C480B
+                      A3E578B1295054CE6AF037D32A3D3CFA2E90A47530E7FDD4B472E2F52D903108
+                      CA28757575BDC5A8D956770255F63292CFA898116641DA151AF57750FFB88A36
+                      5282E001EAEF320A52E01CF2CFB637345F981F46B6025FAF04B7232507685AB4
+                      E4FB4EB060A404C113043763B5970A4F995AF90146F379FF45C6D70E90C7204F
+                      8B82FD535428C5004D8B969203342D4AA6A6A66245ED80C6C6C673C5FCC14494
+                      A34F1E83AEBEE7F38A640778412E1F4D1D0887C38E7F7D6D365E3B2027C429CC
+                      96C3A4DBE6B3B9FF0C6DAEE7B07D4B98EDFF831BE1B5034A9FCE6A5A70708215
+                      6CC521A4ADCC968E6DF9F1B45B704490437E4EEB20D876701BC9714B4545C51D
+                      A645A1292BFB17EB78A297E3C91E780000000049454E44AE426082}
+                    FileName = 
+                      'E:\Projetos2022\Field\Field2023\FieldPec\Filedpec\IMG\excel-file' +
+                      '.png'
+                  end>
+              end
+            end
+          end
+        end
+        inherited GridImportacao: TStringGrid
+          Viewport.Width = 618.000000000000000000
+          Viewport.Height = 190.000000000000000000
+        end
+      end
+      inherited layAlteraRacaCategoria: TLayout
+        inherited Layout234: TLayout
+          inherited Layout261: TLayout
+            inherited Layout262: TLayout
+              inherited lblAlteraRacaCategoria: TLabel
+                TextSettings.Font.StyleExt = {00060000000000000004000000}
+              end
+            end
+            inherited Image170: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout263: TLayout
+            inherited Rectangle15: TRectangle
+              inherited Label124: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited Layout264: TLayout
+            inherited recAlteraRaca: TRectangle
+              inherited Label21: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited recAlterarCategoria: TRectangle
+              inherited Label126: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  inherited ppRepGenAtivos: TppReport
+    DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+    inherited ppDetailBand6: TppDetailBand
+      inherited ppLabel6: TppLabel [1]
+      end
+      inherited ppLabel7: TppLabel [2]
+      end
+      inherited ppDBText38: TppDBText [3]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText39: TppDBText [4]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText40: TppDBText [5]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText41: TppDBText [6]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText42: TppDBText [7]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText43: TppDBText [8]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText44: TppDBText [9]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText45: TppDBText [10]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText46: TppDBText [11]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText47: TppDBText [12]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText48: TppDBText [13]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText49: TppDBText [14]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText1: TppDBText [15]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText2: TppDBText [16]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText3: TppDBText [17]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText4: TppDBText [18]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText5: TppDBText [19]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText6: TppDBText [20]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText7: TppDBText [21]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText8: TppDBText [22]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText35: TppDBText [23]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBText37: TppDBText
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+    end
+    inherited ppFooterBand6: TppFooterBand
+      inherited ppSystemVariable5: TppSystemVariable [1]
+      end
+      inherited ppSystemVariable6: TppSystemVariable [2]
+      end
+      inherited ppLabel21: TppLabel [3]
+        HyperLink = ''
+        Font.Color = clBlack
+        Font.Style = []
+      end
+    end
+    inherited ppSummaryBand1: TppSummaryBand
+      inherited ppLabel17: TppLabel [9]
+      end
+      inherited ppLabel18: TppLabel [10]
+      end
+      inherited ppLabel19: TppLabel [11]
+      end
+      inherited ppLabel20: TppLabel [12]
+      end
+      inherited ppLabel27: TppLabel [13]
+      end
+      inherited ppLabel28: TppLabel [14]
+      end
+      inherited ppDBCalc6: TppDBCalc [15]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc7: TppDBCalc [16]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc8: TppDBCalc [17]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc9: TppDBCalc [18]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc10: TppDBCalc [19]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc11: TppDBCalc [20]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc12: TppDBCalc [21]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc13: TppDBCalc [22]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc14: TppDBCalc [23]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc15: TppDBCalc [24]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc27: TppDBCalc [25]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc31: TppDBCalc [26]
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+      inherited ppDBCalc32: TppDBCalc
+        DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      end
+    end
+    inherited ppGroup1: TppGroup
+      DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+      inherited ppGroupHeaderBand1: TppGroupHeaderBand
+        inherited ppLabel64: TppLabel [2]
+        end
+        inherited ppLabel65: TppLabel [3]
+        end
+        inherited ppLabel66: TppLabel [4]
+        end
+        inherited ppLabel67: TppLabel [5]
+        end
+        inherited ppLabel69: TppLabel [6]
+        end
+        inherited ppLabel70: TppLabel [7]
+        end
+        inherited ppLabel71: TppLabel [8]
+        end
+        inherited ppLabel72: TppLabel [9]
+        end
+        inherited ppLabel73: TppLabel [10]
+        end
+        inherited ppLabel74: TppLabel [11]
+        end
+        inherited ppLabel75: TppLabel [12]
+        end
+        inherited ppLabel1: TppLabel [13]
+        end
+        inherited ppLabel2: TppLabel [14]
+        end
+        inherited ppLabel3: TppLabel [15]
+        end
+        inherited ppLabel68: TppLabel [16]
+        end
+        inherited ppLabel4: TppLabel [17]
+        end
+        inherited ppLabel5: TppLabel [18]
+        end
+        inherited ppLabel14: TppLabel [19]
+        end
+        inherited ppLabel22: TppLabel [20]
+        end
+        inherited ppLabel23: TppLabel [21]
+        end
+        inherited ppLine2: TppLine [22]
+        end
+        inherited ppLabel24: TppLabel [23]
+        end
+        inherited ppLine3: TppLine [24]
+        end
+        inherited ppLabel25: TppLabel [25]
+        end
+        inherited ppLabel26: TppLabel [26]
+        end
+        inherited ppDBText36: TppDBText [27]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+      end
+      inherited ppGroupFooterBand1: TppGroupFooterBand
+        inherited ppLabel8: TppLabel [1]
+        end
+        inherited ppDBCalc16: TppDBCalc [2]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc17: TppDBCalc [3]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc18: TppDBCalc [4]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc19: TppDBCalc [5]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc20: TppDBCalc [6]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc21: TppDBCalc [7]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc22: TppDBCalc [8]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc23: TppDBCalc [9]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc24: TppDBCalc [10]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc25: TppDBCalc [11]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc26: TppDBCalc [12]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc1: TppDBCalc [13]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc2: TppDBCalc [14]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc3: TppDBCalc [15]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc4: TppDBCalc [16]
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc5: TppDBCalc
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc28: TppDBCalc
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc29: TppDBCalc
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+        inherited ppDBCalc30: TppDBCalc
+          DataPipelineName = 'ppDB_REL_GEN_ATIVOS'
+        end
+      end
+    end
+  end
+  inherited ppRepGeral: TppReport
+    DataPipelineName = 'ppDBRelGeral'
+    inherited ppDetailBand1: TppDetailBand
+      inherited ppDBText9: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText10: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText11: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText12: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText13: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText14: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText15: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText16: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText17: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText18: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText19: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText20: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText21: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText22: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText23: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText24: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText25: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText26: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText27: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBText28: TppDBText
+        DataPipelineName = 'ppDBRelGeral'
+      end
+    end
+    inherited ppFooterBand1: TppFooterBand
+      inherited ppSystemVariable1: TppSystemVariable [1]
+      end
+      inherited ppSystemVariable2: TppSystemVariable [2]
+      end
+      inherited ppLabel30: TppLabel [3]
+        HyperLink = ''
+        Font.Color = clBlack
+        Font.Style = []
+      end
+    end
+    inherited ppSummaryBand2: TppSummaryBand
+      inherited ppLabel39: TppLabel [9]
+      end
+      inherited ppLabel40: TppLabel [10]
+      end
+      inherited ppLabel41: TppLabel [11]
+      end
+      inherited ppLabel42: TppLabel [12]
+      end
+      inherited ppLabel43: TppLabel [13]
+      end
+      inherited ppLabel44: TppLabel [14]
+      end
+      inherited ppDBCalc33: TppDBCalc [15]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc34: TppDBCalc [16]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc35: TppDBCalc [17]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc36: TppDBCalc [18]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc37: TppDBCalc [19]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc38: TppDBCalc [20]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc39: TppDBCalc [21]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc40: TppDBCalc [22]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc41: TppDBCalc [23]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc42: TppDBCalc [24]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc43: TppDBCalc [25]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc44: TppDBCalc [26]
+        DataPipelineName = 'ppDBRelGeral'
+      end
+      inherited ppDBCalc45: TppDBCalc
+        DataPipelineName = 'ppDBRelGeral'
+      end
+    end
+    inherited ppGroup2: TppGroup
+      DataPipelineName = 'ppDBRelGeral'
+      inherited ppGroupHeaderBand2: TppGroupHeaderBand
+        inherited ppLabel45: TppLabel [2]
+        end
+        inherited ppLabel46: TppLabel [3]
+        end
+        inherited ppLabel47: TppLabel [4]
+        end
+        inherited ppLabel48: TppLabel [5]
+        end
+        inherited ppLabel49: TppLabel [6]
+        end
+        inherited ppLabel50: TppLabel [7]
+        end
+        inherited ppLabel51: TppLabel [8]
+        end
+        inherited ppLabel52: TppLabel [9]
+        end
+        inherited ppLabel53: TppLabel [10]
+        end
+        inherited ppLabel54: TppLabel [11]
+        end
+        inherited ppLabel55: TppLabel [12]
+        end
+        inherited ppLabel56: TppLabel [13]
+        end
+        inherited ppLabel57: TppLabel [14]
+        end
+        inherited ppLabel58: TppLabel [15]
+        end
+        inherited ppLabel59: TppLabel [16]
+        end
+        inherited ppLabel61: TppLabel [17]
+        end
+        inherited ppLabel62: TppLabel [18]
+        end
+        inherited ppLabel77: TppLabel [19]
+        end
+        inherited ppLabel78: TppLabel [20]
+        end
+        inherited ppLabel79: TppLabel [21]
+        end
+        inherited ppLine5: TppLine [22]
+        end
+        inherited ppLabel80: TppLabel [23]
+        end
+        inherited ppLine6: TppLine [24]
+        end
+        inherited ppLabel81: TppLabel [25]
+        end
+        inherited ppLabel82: TppLabel [26]
+        end
+        inherited ppDBText29: TppDBText [27]
+          DataPipelineName = 'ppDBRelGeral'
+        end
+      end
+    end
+  end
+  inherited ppRepGeralSexo: TppReport
+    DataPipelineName = 'ppDBRelGeralSexo'
+    inherited ppDetailBand5: TppDetailBand
+      inherited ppLine15: TppLine [0]
+      end
+      inherited ppDBText33: TppDBText [1]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText34: TppDBText [2]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText30: TppDBText [3]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText31: TppDBText [4]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText32: TppDBText [5]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText50: TppDBText [6]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText51: TppDBText [7]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText52: TppDBText [8]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText53: TppDBText [9]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText54: TppDBText [10]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText55: TppDBText [11]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText56: TppDBText [12]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText57: TppDBText [13]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText58: TppDBText [14]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText59: TppDBText [15]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText60: TppDBText [16]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText61: TppDBText [17]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText62: TppDBText [18]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText63: TppDBText [19]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText64: TppDBText [20]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBText65: TppDBText [21]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+    end
+    inherited ppFooterBand5: TppFooterBand
+      inherited ppSystemVariable9: TppSystemVariable [1]
+      end
+      inherited ppSystemVariable10: TppSystemVariable [2]
+      end
+      inherited ppLabel76: TppLabel [3]
+        HyperLink = ''
+        Font.Color = clBlack
+        Font.Style = []
+      end
+    end
+    inherited ppSummaryBand3: TppSummaryBand
+      inherited ppLabel91: TppLabel [9]
+      end
+      inherited ppLabel92: TppLabel [10]
+      end
+      inherited ppLabel93: TppLabel [11]
+      end
+      inherited ppLabel94: TppLabel [12]
+      end
+      inherited ppLabel95: TppLabel [13]
+      end
+      inherited ppLabel96: TppLabel [14]
+      end
+      inherited ppLabel97: TppLabel [15]
+      end
+      inherited ppLabel98: TppLabel [16]
+      end
+      inherited ppLblTotalMacho: TppLabel [17]
+      end
+      inherited ppLblTotalFemea: TppLabel [18]
+      end
+      inherited ppDBCalc46: TppDBCalc [19]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc47: TppDBCalc [20]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc48: TppDBCalc [21]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc49: TppDBCalc [22]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc50: TppDBCalc [23]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc51: TppDBCalc [24]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc52: TppDBCalc [25]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc53: TppDBCalc [26]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc54: TppDBCalc [27]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc55: TppDBCalc [28]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc56: TppDBCalc [29]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc57: TppDBCalc [30]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+      inherited ppDBCalc58: TppDBCalc [31]
+        DataPipelineName = 'ppDBRelGeralSexo'
+      end
+    end
+    inherited ppGroup3: TppGroup
+      DataPipelineName = 'ppDBRelGeralSexo'
+      inherited ppGroupHeaderBand3: TppGroupHeaderBand
+        inherited ppLabel120: TppLabel [23]
+        end
+        inherited ppShape15: TppShape [24]
+        end
+        inherited ppLabel121: TppLabel [25]
+        end
+        inherited ppLabel122: TppLabel [26]
+        end
+        inherited ppLabel119: TppLabel [27]
+          HyperLink = ''
+          Font.Color = clWindowText
+          Font.Style = [fsBold]
+        end
+        inherited ppDBText66: TppDBText [28]
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+      end
+      inherited ppGroupFooterBand3: TppGroupFooterBand
+        inherited ppDBCalc59: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc60: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc61: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc62: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc63: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc64: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc65: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc66: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc67: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc68: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc69: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc70: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc71: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc72: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc73: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc74: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc75: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc76: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+        inherited ppDBCalc77: TppDBCalc
+          DataPipelineName = 'ppDBRelGeralSexo'
+        end
+      end
+    end
+  end
+  inherited ppReportResumoDia: TppReport
+    DataPipelineName = 'ppBDResumoDia'
+    inherited ppDetailBand2: TppDetailBand
+      inherited ppLine8: TppLine [0]
+      end
+      inherited ppDBText68: TppDBText [1]
+        DataPipelineName = 'ppBDResumoDia'
+      end
+      inherited ppDBText69: TppDBText [2]
+        DataPipelineName = 'ppBDResumoDia'
+      end
+      inherited ppDBText70: TppDBText [3]
+        DataPipelineName = 'ppBDResumoDia'
+      end
+      inherited ppDBText72: TppDBText
+        DataPipelineName = 'ppBDResumoDia'
+      end
+      inherited ppDBText67: TppDBText
+        DataPipelineName = 'ppBDResumoDia'
+      end
+      inherited ppDBText73: TppDBText
+        DataPipelineName = 'ppBDResumoDia'
+      end
+    end
+    inherited ppFooterBand2: TppFooterBand
+      inherited ppSystemVariable3: TppSystemVariable [0]
+      end
+      inherited ppSystemVariable4: TppSystemVariable [1]
+      end
+      inherited ppLabel130: TppLabel [2]
+        HyperLink = ''
+        Font.Color = clBlack
+        Font.Style = []
+      end
+    end
+    inherited ppSummaryBand4: TppSummaryBand
+      inherited ppShape9: TppShape [0]
+      end
+      inherited ppShape10: TppShape [1]
+      end
+      inherited ppDBText71: TppDBText [2]
+        DataPipelineName = 'ppBDResumoDia'
+      end
+      inherited ppDBCalc80: TppDBCalc [3]
+        DataPipelineName = 'ppBDResumoDia'
+      end
+      inherited ppDBCalc81: TppDBCalc
+        DataPipelineName = 'ppBDResumoDia'
+      end
+    end
+  end
+  inherited ppRepResumoPrint: TppReport
+    DataPipelineName = 'ppDBResumoPrint'
+    inherited ppDetailBand3: TppDetailBand
+      inherited ppDBText74: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText75: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText76: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText77: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText78: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText79: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText82: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText83: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText84: TppDBText
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+    end
+    inherited ppFooterBand3: TppFooterBand
+      inherited ppSystemVariable7: TppSystemVariable [0]
+      end
+      inherited ppSystemVariable8: TppSystemVariable [1]
+      end
+      inherited ppLabel138: TppLabel [2]
+        HyperLink = ''
+        Font.Color = clBlack
+        Font.Style = []
+      end
+    end
+    inherited ppSummaryBand5: TppSummaryBand
+      inherited ppShape18: TppShape [0]
+      end
+      inherited ppShape19: TppShape [1]
+      end
+      inherited ppShape21: TppShape [2]
+      end
+      inherited ppShape22: TppShape [3]
+      end
+      inherited ppDBText80: TppDBText [4]
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBCalc78: TppDBCalc [5]
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBCalc79: TppDBCalc [6]
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText85: TppDBText [7]
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBCalc82: TppDBCalc [8]
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBText86: TppDBText [9]
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+      inherited ppDBCalc83: TppDBCalc
+        DataPipelineName = 'ppDBResumoPrint'
+      end
+    end
+    inherited ppGroup4: TppGroup
+      DataPipelineName = 'ppDBResumoPrint'
+      inherited ppGroupHeaderBand4: TppGroupHeaderBand
+        inherited ppLabel132: TppLabel [3]
+        end
+        inherited ppLabel133: TppLabel [4]
+        end
+        inherited ppLabel135: TppLabel [5]
+        end
+        inherited ppLabel137: TppLabel [6]
+        end
+        inherited ppLabel141: TppLabel [7]
+        end
+        inherited ppLabel142: TppLabel [8]
+        end
+        inherited ppLabel134: TppLabel [9]
+        end
+        inherited ppLabel136: TppLabel [10]
+        end
+        inherited ppLabel143: TppLabel [11]
+        end
+        inherited ppDBText81: TppDBText [12]
+          DataPipelineName = 'ppDBResumoPrint'
+        end
+      end
+      inherited ppGroupFooterBand4: TppGroupFooterBand
+        inherited ppDBCalc84: TppDBCalc
+          DataPipelineName = 'ppDBResumoPrint'
+        end
+        inherited ppDBCalc85: TppDBCalc
+          DataPipelineName = 'ppDBResumoPrint'
+        end
+        inherited ppDBCalc86: TppDBCalc
+          DataPipelineName = 'ppDBResumoPrint'
+        end
+        inherited ppDBCalc87: TppDBCalc
+          DataPipelineName = 'ppDBResumoPrint'
+        end
+      end
+    end
+  end
+end

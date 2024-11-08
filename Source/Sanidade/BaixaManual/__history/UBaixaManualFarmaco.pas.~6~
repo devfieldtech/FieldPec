@@ -1,0 +1,91 @@
+unit UBaixaManualFarmaco;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  UCadPadrao, System.Rtti, FMX.Grid.Style, FMX.ActnList, System.Actions,
+  FMX.TabControl, FMX.ScrollBox, FMX.Grid, FMX.Edit, FMX.Controls.Presentation,
+  FMX.Objects, FMX.TreeView, FMX.Layouts, FMX.EditBox, FMX.NumberBox,
+  FMX.DateTimeCtrls, FMX.ListBox, Fmx.Bind.Grid, System.Bindings.Outputs,
+  Fmx.Bind.Editors, Data.Bind.EngExt, Fmx.Bind.DBEngExt, Data.Bind.Components,
+  Data.Bind.Grid, Data.Bind.DBScope;
+
+type
+  TfrmBaixaManualFarmaco = class(TfrmCadPadrao)
+    Layout8: TLayout;
+    Rectangle3: TRectangle;
+    Layout9: TLayout;
+    Layout10: TLayout;
+    Label7: TLabel;
+    Layout11: TLayout;
+    Label15: TLabel;
+    Label5: TLabel;
+    Label8: TLabel;
+    Label12: TLabel;
+    Layout12: TLayout;
+    ComboBox2: TComboBox;
+    Layout13: TLayout;
+    edtFarmaco: TEdit;
+    EditButton1: TEditButton;
+    edtDataSaida: TDateEdit;
+    cbxTipoEmbalagem: TComboBox;
+    EdtEmbalagemML: TNumberBox;
+    Layout1: TLayout;
+    Rectangle2: TRectangle;
+    Layout3: TLayout;
+    Layout4: TLayout;
+    Label4: TLabel;
+    Layout5: TLayout;
+    Label13: TLabel;
+    Layout6: TLayout;
+    Layout7: TLayout;
+    edtTotalUni: TEdit;
+    BindSourceDB1: TBindSourceDB;
+    LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource;
+    BindingsList1: TBindingsList;
+    procedure EditButton1Click(Sender: TObject);
+    procedure TreeItemNovoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    vIdFarmaco:string;
+  end;
+
+var
+  frmBaixaManualFarmaco: TfrmBaixaManualFarmaco;
+
+implementation
+
+{$R *.fmx}
+
+uses UFarmacos, UServiceDB;
+
+procedure TfrmBaixaManualFarmaco.EditButton1Click(Sender: TObject);
+begin
+  frmCadFarmaco := TfrmCadFarmaco.Create(Self);
+  try
+    frmCadFarmaco.ShowModal;
+    if frmCadFarmaco.vFarmacoSelecionado=1 then
+    begin
+      vIdFarmaco      := serviceDB.TableFarmacosID.AsString;
+      edtFarmaco.Text := serviceDB.TableFarmacosNOME.AsString;
+    end;
+  finally
+    frmCadFarmaco.Free;
+  end;
+end;
+
+procedure TfrmBaixaManualFarmaco.TreeItemNovoClick(Sender: TObject);
+begin
+  edtTotalUni.Text           := '';
+  cbxTipoEmbalagem.ItemIndex := -1;
+  edtFarmaco.Text            :='';
+  serviceDB.BAIXA_MANUAL_FARMACO.Close;
+  serviceDB.BAIXA_MANUAL_FARMACO.Open;
+  serviceDB.BAIXA_MANUAL_FARMACO.Insert;
+  inherited;
+end;
+
+end.

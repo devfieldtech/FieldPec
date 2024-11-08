@@ -1,0 +1,29 @@
+unit UGerenteOperacional;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  UCadPadrao, System.Rtti, FMX.Grid.Style, FMX.ActnList, System.Actions,
+  FMX.TabControl, FMX.ScrollBox, FMX.Grid, FMX.Edit, FMX.Controls.Presentation,
+  FMX.Objects, FMX.TreeView, FMX.Layouts;
+
+type
+  TfrmCadGerenteOperacional = class(TfrmCadPadrao)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadGerenteOperacional: TfrmCadGerenteOperacional;
+
+implementation
+
+{$R *.fmx}
+
+uses UServiceNew, UServiceDB, UPrincipal;
+
+end.

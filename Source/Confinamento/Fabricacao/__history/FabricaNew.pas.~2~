@@ -1,0 +1,284 @@
+unit FabricaNew;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, System.Rtti,
+  FMX.Grid.Style, Data.Bind.EngExt, Fmx.Bind.DBEngExt, Fmx.Bind.Grid,
+  System.Bindings.Outputs, Fmx.Bind.Editors, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  ppParameter, ppDesignLayer, ppBands, ppCtrls, ppPrnabl, ppClass, ppCache,
+  ppProd, ppReport, ppDB, ppComm, ppRelatv, ppDBPipe, Data.DB,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client, Data.Bind.Components,
+  Data.Bind.Grid, Data.Bind.DBScope, FMX.ActnList, System.Actions,
+  FMX.TabControl, FMX.Grid, FMX.DateTimeCtrls, FMX.StdCtrls, FMX.EditBox,
+  FMX.SpinBox, FMX.ScrollBox, FMX.ListBox, FMX.Edit, FMX.Controls.Presentation,
+  FMX.Objects, FMX.TreeView, FMX.Layouts;
+
+type
+  TfrmFabricaNew = class(TForm)
+    layBase: TLayout;
+    tbPrincipal: TTabControl;
+    tbiMnu: TTabItem;
+    layMnuPrincipal: TLayout;
+    layMnu: TLayout;
+    recMnu: TRectangle;
+    Treemnu: TTreeView;
+    TreeItemNovo: TTreeViewItem;
+    Image2: TImage;
+    TreeItemEditar: TTreeViewItem;
+    Image5: TImage;
+    TreeItemExcluir: TTreeViewItem;
+    Image1: TImage;
+    TreeViewItem1: TTreeViewItem;
+    Image4: TImage;
+    TreeViewItem2: TTreeViewItem;
+    Image6: TImage;
+    TreeViewItem3: TTreeViewItem;
+    Image7: TImage;
+    laySuperior: TLayout;
+    Rectangle1: TRectangle;
+    Label2: TLabel;
+    layFechaPadrao: TLayout;
+    imgClose: TImage;
+    layMnuPadrao: TLayout;
+    imgMenu: TImage;
+    lblmnu: TLabel;
+    layLista: TLayout;
+    RecLista: TRectangle;
+    GroupBox1: TGroupBox;
+    edtFiltroName: TEdit;
+    EditButton3: TEditButton;
+    ClearEditButton1: TClearEditButton;
+    Label1: TLabel;
+    GroupBox3: TGroupBox;
+    edtFDataEntATE: TDateEdit;
+    Label12: TLabel;
+    edtFDataEntDE: TDateEdit;
+    Label13: TLabel;
+    Label14: TLabel;
+    cbxCentroCustoF: TComboBox;
+    edtOperadorF: TEdit;
+    EditButton4: TEditButton;
+    Label15: TLabel;
+    cbxTipoBaixaF: TComboBox;
+    Label16: TLabel;
+    Label23: TLabel;
+    edtPreMistura: TEdit;
+    EditButton5: TEditButton;
+    ClearEditButton2: TClearEditButton;
+    StringGrid1: TStringGrid;
+    Layout1: TLayout;
+    Rectangle2: TRectangle;
+    Label3: TLabel;
+    StringGrid2: TStringGrid;
+    LayInfPadrao: TLayout;
+    RectangleInfPadrao: TRectangle;
+    layImprimiFicha: TLayout;
+    Rectangle6: TRectangle;
+    Layout15: TLayout;
+    C: TRectangle;
+    Rectangle5: TRectangle;
+    Layout9: TLayout;
+    Label21: TLabel;
+    Label22: TLabel;
+    Layout10: TLayout;
+    Edit4: TEdit;
+    edtFabFicha: TDateEdit;
+    Layout20: TLayout;
+    btnImprimiFicha: TRectangle;
+    Layout21: TLayout;
+    Image8: TImage;
+    Label24: TLabel;
+    btnCancelaFicha: TRectangle;
+    Layout22: TLayout;
+    Image9: TImage;
+    Label25: TLabel;
+    Rectangle8: TRectangle;
+    Layout23: TLayout;
+    Label26: TLabel;
+    Label27: TLabel;
+    Label20: TLabel;
+    Layout24: TLayout;
+    Edit1: TEdit;
+    edtPrevisaoFicha: TEdit;
+    edtQtdBatida: TSpinBox;
+    Rectangle7: TRectangle;
+    Layout16: TLayout;
+    Label28: TLabel;
+    Label29: TLabel;
+    Layout17: TLayout;
+    edtRacaoFicha: TEdit;
+    EditButton2: TEditButton;
+    Edit2: TEdit;
+    SaveDialog1: TSaveDialog;
+    tbiCad: TTabItem;
+    layCad: TLayout;
+    ToolBar3: TToolBar;
+    btnVoltarPadrao: TSpeedButton;
+    ImageVoltaPadrao: TImage;
+    Label4: TLabel;
+    ToolBar4: TToolBar;
+    layBtnControls: TLayout;
+    btnConfirma: TRectangle;
+    layBntConfirm: TLayout;
+    imgBntConfirm: TImage;
+    lblBtnConfirm: TLabel;
+    btnCancelar: TRectangle;
+    layBtnCancel: TLayout;
+    ImgBtnCancel: TImage;
+    lblBtnCancel: TLabel;
+    RecWhitPadrao: TRectangle;
+    Layout2: TLayout;
+    EditTab: TEdit;
+    Image12: TImage;
+    Layout67: TLayout;
+    Rectangle32: TRectangle;
+    PTIMA: TLayout;
+    Layout68: TLayout;
+    Layout69: TLayout;
+    lbltipo: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    cbxTipoBaixa: TComboBox;
+    cbxCentroCusto: TComboBox;
+    dataFab: TDateEdit;
+    edtHoraIni: TTimeEdit;
+    edtHoraFim: TTimeEdit;
+    Layout3: TLayout;
+    Rectangle3: TRectangle;
+    Layout4: TLayout;
+    Layout5: TLayout;
+    Layout6: TLayout;
+    Label9: TLabel;
+    lblSelectTipo: TLabel;
+    Label19: TLabel;
+    edtRacaoADD: TEdit;
+    btnBuscaAlim: TEditButton;
+    edtKGTotal: TEdit;
+    Rectangle4: TRectangle;
+    Layout7: TLayout;
+    Image3: TImage;
+    Label10: TLabel;
+    edtResponsavel: TEdit;
+    EditButton1: TEditButton;
+    layInsumos: TLayout;
+    gridInsumos: TStringGrid;
+    StringColumn1: TStringColumn;
+    StringColumn2: TStringColumn;
+    StringColumn3: TStringColumn;
+    StringColumn4: TStringColumn;
+    StringColumn5: TStringColumn;
+    StringColumn6: TStringColumn;
+    StringColumn7: TStringColumn;
+    Layout8: TLayout;
+    Label17: TLabel;
+    lblTotalPrevisto: TLabel;
+    Label18: TLabel;
+    lblTotalRealizado: TLabel;
+    Label11: TLabel;
+    lblValorTotalFab: TLabel;
+    SaveDialog2: TSaveDialog;
+    SaveDialog3: TSaveDialog;
+    layPopUpCad: TLayout;
+    RecBlack: TRectangle;
+    recPopup: TRectangle;
+    Layout234: TLayout;
+    Layout235: TLayout;
+    Layout236: TLayout;
+    Label103: TLabel;
+    Image161: TImage;
+    Layout237: TLayout;
+    Rectangle48: TRectangle;
+    Label104: TLabel;
+    btnVoltar: TLabel;
+    Layout11: TLayout;
+    Rectangle9: TRectangle;
+    Layout12: TLayout;
+    Layout13: TLayout;
+    Layout14: TLayout;
+    Label30: TLabel;
+    Label31: TLabel;
+    Label32: TLabel;
+    Label33: TLabel;
+    Label34: TLabel;
+    cbxTipoBaixaEdita: TComboBox;
+    cbxCentroCustoEdita: TComboBox;
+    edtDataBaixaEdita: TDateEdit;
+    edtHoraInicioEdita: TTimeEdit;
+    edtHoraFimEdita: TTimeEdit;
+    actAcoes: TActionList;
+    actMudarAba: TChangeTabAction;
+    AcMudarAbaChart: TAction;
+    AcMudarAbaDespesas: TAction;
+    AcLeft: TAction;
+    AcRigth: TAction;
+    BindSourceDB1: TBindSourceDB;
+    BindingsList1: TBindingsList;
+    LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource;
+    LinkGridToDataSourceBindSourceDB2: TLinkGridToDataSource;
+    BindSourceDB2: TBindSourceDB;
+    qryAux: TFDQuery;
+    qryPrevistro: TFDQuery;
+    qryPrevistroALIMENTO: TStringField;
+    qryPrevistroPREVISTO: TFloatField;
+    qryPrevistroIDALIMENTO: TIntegerField;
+    qryPrevistroIDCONSENTRADO: TIntegerField;
+    qryPrevistroPERCENTMATERIASECA: TFMTBCDField;
+    qryPrevistroVALORKG: TFMTBCDField;
+    qryPrevistroREALIZADO: TFloatField;
+    qryFichaFab: TFDQuery;
+    qryFichaFabDATA_FAB_R: TDateField;
+    qryFichaFabRACAO: TStringField;
+    qryFichaFabPREVISTO_KG_R: TFMTBCDField;
+    qryFichaFabFABRICACAO_NUMERO: TIntegerField;
+    qryFichaFabINSUMO: TStringField;
+    qryFichaFabPREV_INSUMO: TFMTBCDField;
+    qryFichaFabREAL_INSUMO: TFMTBCDField;
+    dsFichaFab: TDataSource;
+    ppDBFichaFab: TppDBPipeline;
+    ppDBFichaFabppField1: TppField;
+    ppDBFichaFabppField2: TppField;
+    ppDBFichaFabppField3: TppField;
+    ppDBFichaFabppField4: TppField;
+    ppDBFichaFabppField5: TppField;
+    ppDBFichaFabppField6: TppField;
+    ppDBFichaFabppField7: TppField;
+    ppRepFichaFab: TppReport;
+    ppHeaderBand1: TppHeaderBand;
+    ppImage1: TppImage;
+    ppLine2: TppLine;
+    ppLabel8: TppLabel;
+    ppShape8: TppShape;
+    ppLabel11: TppLabel;
+    ppLabel9: TppLabel;
+    ppLabel18: TppLabel;
+    ppDBText2: TppDBText;
+    ppDBText8: TppDBText;
+    ppDBText9: TppDBText;
+    ppShape15: TppShape;
+    ppLabel12: TppLabel;
+    ppLine4: TppLine;
+    ppDetailBand1: TppDetailBand;
+    ppFooterBand1: TppFooterBand;
+    ppDesignLayers1: TppDesignLayers;
+    ppDesignLayer1: TppDesignLayer;
+    ppParameterList1: TppParameterList;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmFabricaNew: TfrmFabricaNew;
+
+implementation
+
+{$R *.fmx}
+
+end.
